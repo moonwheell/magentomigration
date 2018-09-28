@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+	<argument name="data" xsi:type="array">
+		<item name="js_config" xsi:type="array">
+			<item name="provider" xsi:type="string">gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_listing_data_source</item>
+		</item>
+	</argument>
+	<settings>
+		<spinner>gwd_customcatalog_gwcatalog_columns</spinner>
+		<deps>
+			<dep>gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_listing_data_source</dep>
+		</deps>
+	</settings>
+	<dataSource component="Magento_Ui/js/grid/provider" name="gwd_customcatalog_gwcatalog_listing_data_source">
+		<settings>
+			<updateUrl path="mui/index/render"/>
+		</settings>
+		<aclResource>Gwd_CustomCatalog::Gwcatalog</aclResource>
+		<dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="gwd_customcatalog_gwcatalog_listing_data_source">
+			<settings>
+				<requestFieldName>id</requestFieldName>
+				<primaryFieldName>gwcatalog_id</primaryFieldName>
+			</settings>
+		</dataProvider>
+	</dataSource>
+	<listingToolbar name="listing_top">
+		<settings>
+			<sticky>true</sticky>
+		</settings>
+		<bookmark name="bookmarks"/>
+		<columnsControls name="columns_controls"/>
+		<filters name="listing_filters"/>
+		<paging name="listing_paging"/>
+	</listingToolbar>
+	<columns name="gwd_customcatalog_gwcatalog_columns">
+		<selectionsColumn name="ids">
+			<settings>
+				<indexField>gwcatalog_id</indexField>
+			</settings>
+		</selectionsColumn>
+		<column name="gwcatalog_id">
+			<settings>
+				<filter>text</filter>
+				<sorting>asc</sorting>
+				<label translate="true">ID</label>
+			</settings>
+		</column>
+		<column name="content">
+			<settings>
+				<filter>text</filter>
+				<label translate="true">content</label>
+			</settings>
+		</column>
+	</columns>
+</listing>

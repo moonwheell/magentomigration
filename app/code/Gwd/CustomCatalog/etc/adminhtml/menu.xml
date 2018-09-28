@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Gwd::top_level" module="Gwd_CustomCatalog" resource="Magento_Backend::content" sortOrder="9999" title="Gwd"/>
+		<add action="gwd_customcatalog/gwcatalog/index" id="Gwd_CustomCatalog::gwd_customcatalog_gwcatalog" module="Gwd_CustomCatalog" parent="Gwd::top_level" resource="Magento_Backend::content" sortOrder="9999" title="Gwcatalog"/>
+	</menu>
+</config>
