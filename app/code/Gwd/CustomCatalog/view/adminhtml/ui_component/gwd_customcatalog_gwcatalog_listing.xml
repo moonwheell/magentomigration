@@ -10,6 +10,13 @@
 		<deps>
 			<dep>gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_listing_data_source</dep>
 		</deps>
+		<buttons>
+			<button name="add">
+				<url path="*/*/new"/>
+				<class>primary</class>
+				<label translate="true">Add new Gwcatalog</label>
+			</button>
+		</buttons>
 	</settings>
 	<dataSource component="Magento_Ui/js/grid/provider" name="gwd_customcatalog_gwcatalog_listing_data_source">
 		<settings>
@@ -33,6 +40,27 @@
 		<paging name="listing_paging"/>
 	</listingToolbar>
 	<columns name="gwd_customcatalog_gwcatalog_columns">
+		<settings>
+			<editorConfig>
+				<param name="selectProvider" xsi:type="string">gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_columns.ids</param>
+				<param name="enabled" xsi:type="boolean">true</param>
+				<param name="indexField" xsi:type="string">gwcatalog_id</param>
+				<param name="clientConfig" xsi:type="array">
+					<item name="saveUrl" path="gwd_customcatalog/Gwcatalog/inlineEdit" xsi:type="url"/>
+					<item name="validateBeforeSave" xsi:type="boolean">false</item>
+				</param>
+			</editorConfig>
+			<childDefaults>
+				<param name="fieldAction" xsi:type="array">
+					<item name="provider" xsi:type="string">gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_columns.actions</item>
+					<item name="target" xsi:type="string">applyAction</item>
+					<item name="params" xsi:type="array">
+						<item name="0" xsi:type="string">${ $.$data.rowIndex }</item>
+						<item name="1" xsi:type="boolean">true</item>
+					</item>
+				</param>
+			</childDefaults>
+		</settings>
 		<selectionsColumn name="ids">
 			<settings>
 				<indexField>gwcatalog_id</indexField>
@@ -49,7 +77,20 @@
 			<settings>
 				<filter>text</filter>
 				<label translate="true">content</label>
+				<editor>
+					<editorType>text</editorType>
+					<validation>
+						<rule name="required-entry" xsi:type="boolean">false</rule>
+					</validation>
+				</editor>
 			</settings>
 		</column>
+		<actionsColumn class="Gwd\CustomCatalog\Ui\Component\Listing\Column\GwcatalogActions" name="actions">
+			<settings>
+				<indexField>gwcatalog_id</indexField>
+				<resizeEnabled>false</resizeEnabled>
+				<resizeDefaultWidth>107</resizeDefaultWidth>
+			</settings>
+		</actionsColumn>
 	</columns>
 </listing>
