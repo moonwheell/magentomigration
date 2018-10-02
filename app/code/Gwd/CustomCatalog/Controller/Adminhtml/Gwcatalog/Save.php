@@ -33,11 +33,11 @@ class Save extends \Magento\Backend\App\Action
         $resultRedirect = $this->resultRedirectFactory->create();
         $data = $this->getRequest()->getPostValue();
         if ($data) {
-            $id = $this->getRequest()->getParam('gwcatalog_id');
+            $id = $this->getRequest()->getParam('entity_id');
         
-            $model = $this->_objectManager->create(\Gwd\CustomCatalog\Model\Gwcatalog::class)->load($id);
+            $model = $this->_objectManager->create(\Magento\Catalog\Model\Product::class)->load($id);
             if (!$model->getId() && $id) {
-                $this->messageManager->addErrorMessage(__('This Gwcatalog no longer exists.'));
+                $this->messageManager->addErrorMessage(__('This Product no longer exists.'));
                 return $resultRedirect->setPath('*/*/');
             }
         
@@ -45,21 +45,21 @@ class Save extends \Magento\Backend\App\Action
         
             try {
                 $model->save();
-                $this->messageManager->addSuccessMessage(__('You saved the Gwcatalog.'));
-                $this->dataPersistor->clear('gwd_customcatalog_gwcatalog');
+                $this->messageManager->addSuccessMessage(__('You saved the Product.'));
+                $this->dataPersistor->clear('catalog_product_entity');
         
                 if ($this->getRequest()->getParam('back')) {
-                    return $resultRedirect->setPath('*/*/edit', ['gwcatalog_id' => $model->getId()]);
+                    return $resultRedirect->setPath('*/*/edit', ['entity_id' => $model->getId()]);
                 }
                 return $resultRedirect->setPath('*/*/');
             } catch (LocalizedException $e) {
                 $this->messageManager->addErrorMessage($e->getMessage());
             } catch (\Exception $e) {
-                $this->messageManager->addExceptionMessage($e, __('Something went wrong while saving the Gwcatalog.'));
+                $this->messageManager->addExceptionMessage($e, __('Something went wrong while saving the Product.'));
             }
         
-            $this->dataPersistor->set('gwd_customcatalog_gwcatalog', $data);
-            return $resultRedirect->setPath('*/*/edit', ['gwcatalog_id' => $this->getRequest()->getParam('gwcatalog_id')]);
+            $this->dataPersistor->set('catalog_product_entity', $data);
+            return $resultRedirect->setPath('*/*/edit', ['entity_id' => $this->getRequest()->getParam('entity_id')]);
         }
         return $resultRedirect->setPath('*/*/');
     }

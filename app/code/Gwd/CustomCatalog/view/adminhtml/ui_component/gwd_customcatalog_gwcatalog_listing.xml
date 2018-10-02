@@ -14,7 +14,7 @@
 			<button name="add">
 				<url path="*/*/new"/>
 				<class>primary</class>
-				<label translate="true">Add new Gwcatalog</label>
+				<label translate="true">Add new Product</label>
 			</button>
 		</buttons>
 	</settings>
@@ -25,8 +25,8 @@
 		<aclResource>Gwd_CustomCatalog::Gwcatalog</aclResource>
 		<dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="gwd_customcatalog_gwcatalog_listing_data_source">
 			<settings>
-				<requestFieldName>id</requestFieldName>
-				<primaryFieldName>gwcatalog_id</primaryFieldName>
+				<requestFieldName>entity_id</requestFieldName>
+				<primaryFieldName>entity_id</primaryFieldName>
 			</settings>
 		</dataProvider>
 	</dataSource>
@@ -44,7 +44,7 @@
 			<editorConfig>
 				<param name="selectProvider" xsi:type="string">gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_listing.gwd_customcatalog_gwcatalog_columns.ids</param>
 				<param name="enabled" xsi:type="boolean">true</param>
-				<param name="indexField" xsi:type="string">gwcatalog_id</param>
+				<param name="indexField" xsi:type="string">entity_id</param>
 				<param name="clientConfig" xsi:type="array">
 					<item name="saveUrl" path="gwd_customcatalog/Gwcatalog/inlineEdit" xsi:type="url"/>
 					<item name="validateBeforeSave" xsi:type="boolean">false</item>
@@ -63,20 +63,33 @@
 		</settings>
 		<selectionsColumn name="ids">
 			<settings>
-				<indexField>gwcatalog_id</indexField>
+				<indexField>entity_id</indexField>
 			</settings>
 		</selectionsColumn>
-		<column name="gwcatalog_id">
+		<column name="entity_id">
 			<settings>
 				<filter>text</filter>
 				<sorting>asc</sorting>
-				<label translate="true">ID</label>
+				<label translate="true">Product ID</label>
 			</settings>
 		</column>
-		<column name="content">
+		<!--<column name="description">-->
+			<!--<settings>-->
+				<!--<filter>text</filter>-->
+				<!--<sorting>asc</sorting>-->
+				<!--<label translate="true">CopyWriteInfo</label>-->
+			<!--</settings>-->
+		<!--</column>-->
+		<column name="vpn">
 			<settings>
 				<filter>text</filter>
-				<label translate="true">content</label>
+				<label translate="true">VPN</label>
+			</settings>
+		</column>
+		<column name="sku">
+			<settings>
+				<filter>text</filter>
+				<label translate="true">SKU</label>
 				<editor>
 					<editorType>text</editorType>
 					<validation>
@@ -87,7 +100,7 @@
 		</column>
 		<actionsColumn class="Gwd\CustomCatalog\Ui\Component\Listing\Column\GwcatalogActions" name="actions">
 			<settings>
-				<indexField>gwcatalog_id</indexField>
+				<indexField>entity_id</indexField>
 				<resizeEnabled>false</resizeEnabled>
 				<resizeDefaultWidth>107</resizeDefaultWidth>
 			</settings>

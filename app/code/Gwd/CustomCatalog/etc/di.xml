@@ -3,10 +3,14 @@
 	<preference for="Gwd\CustomCatalog\Api\GwcatalogRepositoryInterface" type="Gwd\CustomCatalog\Model\GwcatalogRepository"/>
 	<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogInterface" type="Gwd\CustomCatalog\Model\Gwcatalog"/>
 	<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+
+	<preference for="Gwd\CustomCatalog\Api\TestapiManagementInterface" type="Gwd\CustomCatalog\Model\TestapiManagement"/>
+
 	<virtualType name="Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+
 		<arguments>
-			<argument name="mainTable" xsi:type="string">gwd_customcatalog_gwcatalog</argument>
-			<argument name="resourceModel" xsi:type="string">Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Collection</argument>
+			<argument name="mainTable" xsi:type="string">catalog_product_entity</argument>
+			<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>
 		</arguments>
 	</virtualType>
 	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">

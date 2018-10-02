@@ -16,7 +16,7 @@ class DeleteButton extends GenericButton implements ButtonProviderInterface
         $data = [];
         if ($this->getModelId()) {
             $data = [
-                'label' => __('Delete Gwcatalog'),
+                'label' => __('Delete Product'),
                 'class' => 'delete',
                 'on_click' => 'deleteConfirm(\'' . __(
                     'Are you sure you want to do this?'
@@ -34,6 +34,6 @@ class DeleteButton extends GenericButton implements ButtonProviderInterface
      */
     public function getDeleteUrl()
     {
-        return $this->getUrl('*/*/delete', ['gwcatalog_id' => $this->getModelId()]);
+        return $this->getUrl('*/*/delete', ['entity_id' => $this->getModelId()]);
     }
 }

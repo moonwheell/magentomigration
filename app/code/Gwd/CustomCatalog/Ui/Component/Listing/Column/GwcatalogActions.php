@@ -39,13 +39,13 @@ class GwcatalogActions extends \Magento\Ui\Component\Listing\Columns\Column
     {
         if (isset($dataSource['data']['items'])) {
             foreach ($dataSource['data']['items'] as & $item) {
-                if (isset($item['gwcatalog_id'])) {
+                if (isset($item['entity_id'])) {
                     $item[$this->getData('name')] = [
                         'edit' => [
                             'href' => $this->urlBuilder->getUrl(
                                 static::URL_PATH_EDIT,
                                 [
-                                    'gwcatalog_id' => $item['gwcatalog_id']
+                                    'entity_id' => $item['entity_id']
                                 ]
                             ),
                             'label' => __('Edit')
@@ -54,7 +54,7 @@ class GwcatalogActions extends \Magento\Ui\Component\Listing\Columns\Column
                             'href' => $this->urlBuilder->getUrl(
                                 static::URL_PATH_DELETE,
                                 [
-                                    'gwcatalog_id' => $item['gwcatalog_id']
+                                    'entity_id' => $item['entity_id']
                                 ]
                             ),
                             'label' => __('Delete'),

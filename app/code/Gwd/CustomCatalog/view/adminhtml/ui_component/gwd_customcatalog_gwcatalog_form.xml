@@ -31,8 +31,8 @@
 		</settings>
 		<dataProvider class="Gwd\CustomCatalog\Model\Gwcatalog\DataProvider" name="gwcatalog_form_data_source">
 			<settings>
-				<requestFieldName>gwcatalog_id</requestFieldName>
-				<primaryFieldName>gwcatalog_id</primaryFieldName>
+				<requestFieldName>entity_id</requestFieldName>
+				<primaryFieldName>entity_id</primaryFieldName>
 			</settings>
 		</dataProvider>
 	</dataSource>
@@ -40,7 +40,7 @@
 		<settings>
 			<label/>
 		</settings>
-		<field formElement="textarea" name="content" sortOrder="10">
+		<field formElement="textarea" name="sku" sortOrder="10">
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
 					<item name="source" xsi:type="string">Gwcatalog</item>
@@ -48,12 +48,25 @@
 			</argument>
 			<settings>
 				<dataType>text</dataType>
-				<label translate="true">content</label>
-				<dataScope>content</dataScope>
+				<label translate="true">SKU</label>
+				<dataScope>sku</dataScope>
 				<validation>
 					<rule name="required-entry" xsi:type="boolean">false</rule>
 				</validation>
 			</settings>
+
 		</field>
+		<field name="email">
+			<argument name="data" xsi:type="array">
+				<item name="config" xsi:type="array">
+					<item name="label" xsi:type="string">Email</item>
+					<item name="visible" xsi:type="boolean">true</item>
+					<item name="dataType" xsi:type="string">text</item>
+					<item name="formElement" xsi:type="string">input</item>
+					<item name="source" xsi:type="string">contact</item>
+				</item>
+			</argument>
+		</field>
+
 	</fieldset>
 </form>

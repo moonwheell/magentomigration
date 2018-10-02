@@ -25,19 +25,21 @@ class Edit extends \Gwd\CustomCatalog\Controller\Adminhtml\Gwcatalog
     /**
      * Edit action
      *
+     * gwd_customcatalog/GwCatalog/Edit
+     *
      * @return \Magento\Framework\Controller\ResultInterface
      */
     public function execute()
     {
         // 1. Get ID and create model
-        $id = $this->getRequest()->getParam('gwcatalog_id');
-        $model = $this->_objectManager->create(\Gwd\CustomCatalog\Model\Gwcatalog::class);
+        $id = $this->getRequest()->getParam('entity_id');
+        $model = $this->_objectManager->create(\Magento\Catalog\Model\Product::class);
         
         // 2. Initial checking
         if ($id) {
             $model->load($id);
             if (!$model->getId()) {
-                $this->messageManager->addErrorMessage(__('This Gwcatalog no longer exists.'));
+                $this->messageManager->addErrorMessage(__('This Product no longer exists.'));
                 /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
                 $resultRedirect = $this->resultRedirectFactory->create();
                 return $resultRedirect->setPath('*/*/');
@@ -49,11 +51,11 @@ class Edit extends \Gwd\CustomCatalog\Controller\Adminhtml\Gwcatalog
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
         $resultPage = $this->resultPageFactory->create();
         $this->initPage($resultPage)->addBreadcrumb(
-            $id ? __('Edit Gwcatalog') : __('New Gwcatalog'),
-            $id ? __('Edit Gwcatalog') : __('New Gwcatalog')
+            $id ? __('Edit Product') : __('New Product'),
+            $id ? __('Edit Product') : __('New Product')
         );
-        $resultPage->getConfig()->getTitle()->prepend(__('Gwcatalogs'));
-        $resultPage->getConfig()->getTitle()->prepend($model->getId() ? __('Edit Gwcatalog %1', $model->getId()) : __('New Gwcatalog'));
+        $resultPage->getConfig()->getTitle()->prepend(__('Products'));
+        $resultPage->getConfig()->getTitle()->prepend($model->getId() ? __('Edit Product %1', $model->getId()) : __('New Product'));
         return $resultPage;
     }
 }

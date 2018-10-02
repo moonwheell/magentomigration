@@ -16,11 +16,11 @@ class Delete extends \Gwd\CustomCatalog\Controller\Adminhtml\Gwcatalog
         /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
         $resultRedirect = $this->resultRedirectFactory->create();
         // check if we know what should be deleted
-        $id = $this->getRequest()->getParam('gwcatalog_id');
+        $id = $this->getRequest()->getParam('entity_id');
         if ($id) {
             try {
                 // init model and delete
-                $model = $this->_objectManager->create(\Gwd\CustomCatalog\Model\Gwcatalog::class);
+                $model = $this->_objectManager->create(\Magento\Catalog\Model\Product::class);
                 $model->load($id);
                 $model->delete();
                 // display success message
@@ -31,7 +31,7 @@ class Delete extends \Gwd\CustomCatalog\Controller\Adminhtml\Gwcatalog
                 // display error message
                 $this->messageManager->addErrorMessage($e->getMessage());
                 // go back to edit form
-                return $resultRedirect->setPath('*/*/edit', ['gwcatalog_id' => $id]);
+                return $resultRedirect->setPath('*/*/edit', ['entity_id' => $id]);
             }
         }
         // display error message

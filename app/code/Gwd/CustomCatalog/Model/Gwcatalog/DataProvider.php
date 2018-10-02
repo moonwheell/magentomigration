@@ -3,7 +3,8 @@
 
 namespace Gwd\CustomCatalog\Model\Gwcatalog;
 
-use Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\CollectionFactory;
+
+use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
 use Magento\Framework\App\Request\DataPersistorInterface;
 
 class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider

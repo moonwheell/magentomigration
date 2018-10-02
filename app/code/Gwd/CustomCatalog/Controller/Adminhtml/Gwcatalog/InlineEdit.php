@@ -45,7 +45,7 @@ class InlineEdit extends \Magento\Backend\App\Action
                         $model->setData(array_merge($model->getData(), $postItems[$modelid]));
                         $model->save();
                     } catch (\Exception $e) {
-                        $messages[] = "[Gwcatalog ID: {$modelid}]  {$e->getMessage()}";
+                        $messages[] = "[Product ID: {$modelid}]  {$e->getMessage()}";
                         $error = true;
                     }
                 }
