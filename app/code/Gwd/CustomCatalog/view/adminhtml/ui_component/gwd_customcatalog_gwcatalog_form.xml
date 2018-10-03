@@ -40,6 +40,30 @@
 		<settings>
 			<label/>
 		</settings>
+
+		<!--<field name="custominfo">-->
+			<!--<argument name="data" xsi:type="array">-->
+				<!--<item name="config" xsi:type="array">-->
+					<!--<item name="label" xsi:type="string">CopyWriteInfo</item>-->
+					<!--<item name="visible" xsi:type="boolean">true</item>-->
+					<!--<item name="dataType" xsi:type="string">text</item>-->
+					<!--<item name="formElement" xsi:type="string">input</item>-->
+				<!--</item>-->
+			<!--</argument>-->
+		<!--</field>-->
+
+		<!--<field name="vpn">-->
+			<!--<argument name="data" xsi:type="array">-->
+				<!--<item name="config" xsi:type="array">-->
+					<!--<item name="visible" xsi:type="boolean">true</item>-->
+					<!--<item name="dataType" xsi:type="string">text</item>-->
+					<!--<item name="formElement" xsi:type="string">input</item>-->
+					<!--&lt;!&ndash;<item name="source" xsi:type="string">contact</item>&ndash;&gt;-->
+				<!--</item>-->
+			<!--</argument>-->
+		<!--</field>-->
+
+
 		<field formElement="textarea" name="sku" sortOrder="10">
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
@@ -54,19 +78,9 @@
 					<rule name="required-entry" xsi:type="boolean">false</rule>
 				</validation>
 			</settings>
+		</field>
 
-		</field>
-		<field name="email">
-			<argument name="data" xsi:type="array">
-				<item name="config" xsi:type="array">
-					<item name="label" xsi:type="string">Email</item>
-					<item name="visible" xsi:type="boolean">true</item>
-					<item name="dataType" xsi:type="string">text</item>
-					<item name="formElement" xsi:type="string">input</item>
-					<item name="source" xsi:type="string">contact</item>
-				</item>
-			</argument>
-		</field>
+
 
 	</fieldset>
 </form>
