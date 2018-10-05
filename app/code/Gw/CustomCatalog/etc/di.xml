@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Gw\CustomCatalog\Controller\Index\Example">
+        <plugin  name="Gw_CustomCatalog_Plugin_Example" type="Gw\CustomCatalog\Plugin\Example"/>
+    </type>
+</config>
