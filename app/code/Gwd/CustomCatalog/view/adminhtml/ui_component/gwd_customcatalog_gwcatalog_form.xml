@@ -37,9 +37,12 @@
 		</dataProvider>
 	</dataSource>
 	<fieldset name="general">
-		<settings>
-			<label/>
-		</settings>
+		<argument name="data" xsi:type="array">
+			<item name="config" xsi:type="array">
+				<item name="label" xsi:type="string" translate="true">Gengeral</item>
+				<item name="collapsible" xsi:type="boolean" >false</item>
+			</item>
+		</argument>
 
 		<!--<field name="custominfo">-->
 			<!--<argument name="data" xsi:type="array">-->
@@ -51,6 +54,19 @@
 				<!--</item>-->
 			<!--</argument>-->
 		<!--</field>-->
+
+		<field formElement="textarea" name="custominfo" sortOrder="10">
+			<argument name="data" xsi:type="array">
+				<item name="config" xsi:type="array">
+					<item name="source" xsi:type="string">Gwcatalog</item>
+				</item>
+			</argument>
+			<settings>
+				<dataType>text</dataType>
+				<label translate="true">CopyWriteInfo</label>
+				<dataScope>CopyWriteInfo</dataScope>
+			</settings>
+		</field>
 
 		<!--<field name="vpn">-->
 			<!--<argument name="data" xsi:type="array">-->
@@ -64,7 +80,23 @@
 		<!--</field>-->
 
 
-		<field formElement="textarea" name="sku" sortOrder="10">
+		<field formElement="textarea" name="vpn" sortOrder="20">
+			<argument name="data" xsi:type="array">
+				<item name="config" xsi:type="array">
+					<item name="source" xsi:type="string">Gwcatalog</item>
+				</item>
+			</argument>
+			<settings>
+				<dataType>text</dataType>
+				<label translate="true">VPN</label>
+				<dataScope>vpn</dataScope>
+			</settings>
+		</field>
+
+
+
+
+		<field formElement="textarea" name="sku" sortOrder="30">
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
 					<item name="source" xsi:type="string">Gwcatalog</item>
@@ -74,9 +106,6 @@
 				<dataType>text</dataType>
 				<label translate="true">SKU</label>
 				<dataScope>sku</dataScope>
-				<validation>
-					<rule name="required-entry" xsi:type="boolean">false</rule>
-				</validation>
 			</settings>
 		</field>
 

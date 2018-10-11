@@ -6,7 +6,7 @@ return [
         'Magento_Eav' => 1,
         'Magento_Theme' => 1,
         'Gw_CustomCatalog' => 1,
-        'Gwd_CustomCatalog' => 0,
+        'Gwd_CustomCatalog' => 1,
         'Magento_Cms' => 1,
         'Magento_Customer' => 1,
         'Magento_AdminNotification' => 1,

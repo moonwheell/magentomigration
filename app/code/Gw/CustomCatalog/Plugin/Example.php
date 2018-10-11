@@ -8,7 +8,6 @@ class Example
 
     public function beforeSetTitle( \Gw\CustomCatalog\Controller\Index\Example $subject, $title)
     {
-
         $title = $title . " to ";
 		echo __METHOD__ . "</br>";
 
@@ -35,6 +34,15 @@ class Example
         return $result;
     }
 
+
+    public function afterIsHasVariations(\Magento\ConfigurableProduct\Block\Adminhtml\Product\Edit\Tab\Variations\Config $subject, $result)
+    {
+        $result .= true;
+
+        return $result = true;
+//        return $this->getProduct()->getTypeId() === Configurable::TYPE_CODE
+//            && $this->configurableType->getUsedProducts($this->getProduct());
+    }
 
 
 }

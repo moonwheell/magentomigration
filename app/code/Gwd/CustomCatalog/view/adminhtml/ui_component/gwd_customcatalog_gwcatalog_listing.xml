@@ -78,14 +78,25 @@
 				</item>
 			</argument>
 		</column>
+		<column name="custominfo">
+			<argument name="data" xsi:type="array">
+				<item name="config" xsi:type="array">
+					<item name="label" xsi:type="string" translate="true">CopyWriteInfo</item>
+					<item name="sortOrder" xsi:type="number">30</item>
+				</item>
+			</argument>
+		</column>
+
 		<!--<column name="custominfo">-->
-			<!--<argument name="data" xsi:type="array">-->
-				<!--<item name="config" xsi:type="array">-->
-					<!--<item name="label" xsi:type="string" translate="true">CopyWriteInfo</item>-->
-					<!--<item name="sortOrder" xsi:type="number">90</item>-->
-				<!--</item>-->
-			<!--</argument>-->
+			<!--<settings>-->
+				<!--<filter>text</filter>-->
+				<!--<label translate="true">CopyWriteInfo</label>-->
+				<!--<editor>-->
+					<!--<editorType>text</editorType>-->
+				<!--</editor>-->
+			<!--</settings>-->
 		<!--</column>-->
+
 		<!--<column name="vpn">-->
 			<!--<argument name="data" xsi:type="array">-->
 				<!--<item name="config" xsi:type="array">-->
@@ -94,6 +105,19 @@
 				<!--</item>-->
 			<!--</argument>-->
 		<!--</column>-->
+
+
+		<column name="vpn">
+			<settings>
+				<filter>text</filter>
+				<label translate="true">VPN</label>
+				<editor>
+					<editorType>text</editorType>
+				</editor>
+			</settings>
+		</column>
+
+
 		<column name="sku">
 			<settings>
 				<filter>text</filter>
