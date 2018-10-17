@@ -24,6 +24,8 @@ HTML;
     exit(1);
 }
 
+ini_set('display_errors', 1);
+
 $params = $_SERVER;
 $params[Bootstrap::INIT_PARAM_FILESYSTEM_DIR_PATHS] = [
     DirectoryList::PUB => [DirectoryList::URL_PATH => ''],

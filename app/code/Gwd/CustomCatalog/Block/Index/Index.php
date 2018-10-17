@@ -22,6 +22,8 @@ class Index extends \Magento\Framework\View\Element\Template
         $collection = $this->_productCollectionFactory->create();
         $collection->addAttributeToSelect('*');
         $collection->setPageSize(3); // fetching only 3 products
+
+
         return $collection;
     }
 }

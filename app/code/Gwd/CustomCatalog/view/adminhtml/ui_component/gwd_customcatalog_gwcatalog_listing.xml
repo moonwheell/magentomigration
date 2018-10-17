@@ -25,7 +25,7 @@
 		<aclResource>Gwd_CustomCatalog::Gwcatalog</aclResource>
 		<dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="gwd_customcatalog_gwcatalog_listing_data_source">
 			<settings>
-				<requestFieldName>entity_id</requestFieldName>
+				<requestFieldName>id</requestFieldName>
 				<primaryFieldName>entity_id</primaryFieldName>
 			</settings>
 		</dataProvider>
@@ -87,24 +87,6 @@
 			</argument>
 		</column>
 
-		<!--<column name="custominfo">-->
-			<!--<settings>-->
-				<!--<filter>text</filter>-->
-				<!--<label translate="true">CopyWriteInfo</label>-->
-				<!--<editor>-->
-					<!--<editorType>text</editorType>-->
-				<!--</editor>-->
-			<!--</settings>-->
-		<!--</column>-->
-
-		<!--<column name="vpn">-->
-			<!--<argument name="data" xsi:type="array">-->
-				<!--<item name="config" xsi:type="array">-->
-					<!--<item name="label" xsi:type="string" translate="true">VPN</item>-->
-					<!--<item name="sortOrder" xsi:type="number">90</item>-->
-				<!--</item>-->
-			<!--</argument>-->
-		<!--</column>-->
 
 
 		<column name="vpn">

@@ -20,4 +20,11 @@
 			</argument>
 		</arguments>
 	</type>
+	<type name="Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider">
+	<arguments>
+		<argument name="addAtributeToSelect" xsi:type="array">
+			<item name="234324_name" xsi:type="object">Gwd\CustomCatalog\Ui\DataProvider\Product\AddManageStockFieldToCollection</item>
+		</argument>
+	</arguments>
+	</type>
 </config>
