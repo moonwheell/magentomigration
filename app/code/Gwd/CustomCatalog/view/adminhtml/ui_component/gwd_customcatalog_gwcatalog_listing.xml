@@ -89,21 +89,10 @@
 
 
 
-		<column name="vpn">
+		<column name="text_my_custom_attribute1">
 			<settings>
 				<filter>text</filter>
-				<label translate="true">VPN</label>
-				<editor>
-					<editorType>text</editorType>
-				</editor>
-			</settings>
-		</column>
-
-
-		<column name="sku">
-			<settings>
-				<filter>text</filter>
-				<label translate="true">SKU</label>
+				<label translate="true">text_my_custom_attribute1</label>
 				<editor>
 					<editorType>text</editorType>
 					<validation>
@@ -112,6 +101,7 @@
 				</editor>
 			</settings>
 		</column>
+
 		<actionsColumn class="Gwd\CustomCatalog\Ui\Component\Listing\Column\GwcatalogActions" name="actions">
 			<settings>
 				<indexField>entity_id</indexField>

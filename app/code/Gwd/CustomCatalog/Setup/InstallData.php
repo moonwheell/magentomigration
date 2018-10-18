@@ -1,51 +1,70 @@
 <?php
 
 namespace Gwd\CustomCatalog\Setup;
-
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
+use Magento\Catalog\Setup\CategorySetupFactory;
+use Magento\Eav\Model\Entity\Attribute\SetFactory as AttributeSetFactory;
 
 class InstallData implements InstallDataInterface
 {
     private $eavSetupFactory;
+    private $attributeSetFactory;
+    private $attributeSet;
+    private $categorySetupFactory;
 
-    public function __construct(EavSetupFactory $eavSetupFactory)
+    public function __construct(EavSetupFactory $eavSetupFactory, AttributeSetFactory $attributeSetFactory, CategorySetupFactory $categorySetupFactory )
     {
         $this->eavSetupFactory = $eavSetupFactory;
+        $this->attributeSetFactory = $attributeSetFactory;
+        $this->categorySetupFactory = $categorySetupFactory;
     }
 
     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
+        $setup->startSetup();
+
+        // TO CREATE ATTRIBUTE SET
+        $categorySetup = $this->categorySetupFactory->create(['setup' => $setup]);
+
+        $attributeSet = $this->attributeSetFactory->create();
+        $entityTypeId = $categorySetup->getEntityTypeId(\Magento\Catalog\Model\Product::ENTITY);
+        $attributeSetId = $categorySetup->getDefaultAttributeSetId($entityTypeId);
+        $data = [
+            'attribute_set_name' => 'MyCustomAttribute1',
+            'entity_type_id' => $entityTypeId,
+            'sort_order' => 200,
+        ];
+        $attributeSet->setData($data);
+        $attributeSet->validate();
+        $attributeSet->save();
+        $attributeSet->initFromSkeleton($attributeSetId);
+        $attributeSet->save();
+
+        // TO CREATE PRODUCT ATTRIBUTE
         $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
-            'sample_attribute',
+            'text_my_custom_attribute1',
             [
-                'type' => 'int',
+                'type' => 'varchar',
+                'label' => 'My Custom Attribute Text',
                 'backend' => '',
-                'frontend' => '',
-                'label' => 'Sample Atrribute',
-                'input' => '',
-                'class' => '',
+                'input' => 'text',
+                'wysiwyg_enabled'   => false,
                 'source' => '',
-                'global' => \Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface::SCOPE_GLOBAL,
-                'visible' => true,
-                'required' => true,
-                'user_defined' => false,
-                'default' => '',
-                'searchable' => false,
-                'filterable' => false,
-                'comparable' => false,
-                'visible_on_front' => false,
+                'required' => false,
+                'sort_order' => 5,
+                'global' => \Magento\Catalog\Model\ResourceModel\Eav\Attribute::SCOPE_STORE,
                 'used_in_product_listing' => true,
-                'unique' => false,
-                'apply_to' => ''
+                'visible_on_front' => true,
+                'attribute_set' => 'MyCustomAttribute',
             ]
         );
+
+        $setup->endSetup();
     }
 }
-
-
