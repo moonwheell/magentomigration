@@ -6,7 +6,7 @@ use Gwd\CustomCatalog\Api\CustomCatalogApiInterface;
 class CustomCatalogApi implements CustomCatalogApiInterface
 {
 
-    public function name($name)
+    public function getByVPN($vpn)
     {
 
         $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
@@ -16,7 +16,7 @@ class CustomCatalogApi implements CustomCatalogApiInterface
         $collection = $productCollection->create();
 
         $collection->addAttributeToSelect('name');
-        $collection->addAttributeToFilter("sku", array("eq" => "$name"));
+        $collection->addAttributeToFilter("sku", array("eq" => "$vpn"));
         $collection->load();
 
         $result = [];

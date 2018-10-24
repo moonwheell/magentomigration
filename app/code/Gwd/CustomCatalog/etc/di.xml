@@ -12,11 +12,11 @@
 			<!--<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>-->
 		<!--</arguments>-->
 	<!--</virtualType>-->
-	<!--<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">-->
-		<!--<arguments>-->
-			<!--<argument name="collections" xsi:type="array">-->
-				<!--<item name="gwd_customcatalog_gwcatalog_listing_data_source" xsi:type="string">Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Grid\Collection</item>-->
-			<!--</argument>-->
-		<!--</arguments>-->
-	<!--</type>-->
+	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+		<arguments>
+			<argument name="collections" xsi:type="array">
+				<item name="gwd_customcatalog_gwcatalog_listing_data_source" xsi:type="string">Gwd\CustomCatalog\Model\Grid\Collection</item>
+			</argument>
+		</arguments>
+	</type>
 </config>
