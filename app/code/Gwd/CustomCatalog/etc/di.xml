@@ -1,22 +1,22 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-	<preference for="Gwd\CustomCatalog\Api\GwcatalogRepositoryInterface" type="Gwd\CustomCatalog\Model\GwcatalogRepository"/>
-	<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogInterface" type="Gwd\CustomCatalog\Model\Gwcatalog"/>
-	<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+	<!--<preference for="Gwd\CustomCatalog\Api\GwcatalogRepositoryInterface" type="Gwd\CustomCatalog\Model\GwcatalogRepository"/>-->
+	<!--<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogInterface" type="Gwd\CustomCatalog\Model\Gwcatalog"/>-->
+	<!--<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>-->
 
-	<preference for="Gwd\CustomCatalog\Api\TestapiManagementInterface" type="Gwd\CustomCatalog\Model\TestapiManagement"/>
+	<preference for="Gwd\CustomCatalog\Api\CustomCatalogApiInterface" type="Gwd\CustomCatalog\Model\CustomCatalogApi"/>
 
-	<virtualType name="Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
-		<arguments>
-			<argument name="mainTable" xsi:type="string">catalog_product_entity</argument>
-			<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>
-		</arguments>
-	</virtualType>
-	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
-		<arguments>
-			<argument name="collections" xsi:type="array">
-				<item name="gwd_customcatalog_gwcatalog_listing_data_source" xsi:type="string">Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Grid\Collection</item>
-			</argument>
-		</arguments>
-	</type>
+	<!--<virtualType name="Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">-->
+		<!--<arguments>-->
+			<!--<argument name="mainTable" xsi:type="string">catalog_product_entity</argument>-->
+			<!--<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>-->
+		<!--</arguments>-->
+	<!--</virtualType>-->
+	<!--<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">-->
+		<!--<arguments>-->
+			<!--<argument name="collections" xsi:type="array">-->
+				<!--<item name="gwd_customcatalog_gwcatalog_listing_data_source" xsi:type="string">Gwd\CustomCatalog\Model\ResourceModel\Gwcatalog\Grid\Collection</item>-->
+			<!--</argument>-->
+		<!--</arguments>-->
+	<!--</type>-->
 </config>

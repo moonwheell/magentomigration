@@ -78,6 +78,8 @@
 				</item>
 			</argument>
 		</column>
+
+
 		<column name="custominfo">
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
@@ -87,20 +89,36 @@
 			</argument>
 		</column>
 
-
-
-		<column name="text_my_custom_attribute1">
-			<settings>
-				<filter>text</filter>
-				<label translate="true">text_my_custom_attribute1</label>
-				<editor>
-					<editorType>text</editorType>
-					<validation>
-						<rule name="required-entry" xsi:type="boolean">false</rule>
-					</validation>
-				</editor>
-			</settings>
+		<column name="vpn">
+			<argument name="data" xsi:type="array">
+				<item name="config" xsi:type="array">
+					<item name="label" xsi:type="string" translate="true">VPN</item>
+					<item name="sortOrder" xsi:type="number">40</item>
+				</item>
+			</argument>
 		</column>
+
+		<column name="sku">
+			<argument name="data" xsi:type="array">
+				<item name="config" xsi:type="array">
+					<item name="label" xsi:type="string" translate="true">SKU</item>
+					<item name="sortOrder" xsi:type="number">50</item>
+				</item>
+			</argument>
+		</column>
+
+		<!--<column name="text_my_custom_attribute1">-->
+			<!--<settings>-->
+				<!--<filter>text</filter>-->
+				<!--<label translate="true">text_my_custom_attribute1</label>-->
+				<!--<editor>-->
+					<!--<editorType>text</editorType>-->
+					<!--<validation>-->
+						<!--<rule name="required-entry" xsi:type="boolean">false</rule>-->
+					<!--</validation>-->
+				<!--</editor>-->
+			<!--</settings>-->
+		<!--</column>-->
 
 		<actionsColumn class="Gwd\CustomCatalog\Ui\Component\Listing\Column\GwcatalogActions" name="actions">
 			<settings>

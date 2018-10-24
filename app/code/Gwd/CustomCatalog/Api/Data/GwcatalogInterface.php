@@ -34,17 +34,4 @@ interface GwcatalogInterface
      * @return \Gwd\CustomCatalog\Api\Data\GwcatalogInterface
      */
     public function setContent($content);
-
-    /**
-     * Get content
-     * @return string|null
-     */
-    public function getTextMyCustomAttribute1();
-
-    /**
-     * Set content
-     * @param string $content
-     * @return \Gwd\CustomCatalog\Api\Data\GwcatalogInterface
-     */
-    public function setTextMyCustomAttribute1($content);
 }

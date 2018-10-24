@@ -27,31 +27,33 @@ class InstallData implements InstallDataInterface
     {
         $setup->startSetup();
 
-        // TO CREATE ATTRIBUTE SET
-        $categorySetup = $this->categorySetupFactory->create(['setup' => $setup]);
-
-        $attributeSet = $this->attributeSetFactory->create();
-        $entityTypeId = $categorySetup->getEntityTypeId(\Magento\Catalog\Model\Product::ENTITY);
-        $attributeSetId = $categorySetup->getDefaultAttributeSetId($entityTypeId);
-        $data = [
-            'attribute_set_name' => 'MyCustomAttribute1',
-            'entity_type_id' => $entityTypeId,
-            'sort_order' => 200,
-        ];
-        $attributeSet->setData($data);
-        $attributeSet->validate();
-        $attributeSet->save();
-        $attributeSet->initFromSkeleton($attributeSetId);
-        $attributeSet->save();
-
         // TO CREATE PRODUCT ATTRIBUTE
         $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
-            'text_my_custom_attribute1',
+            'vpn',
             [
-                'type' => 'varchar',
-                'label' => 'My Custom Attribute Text',
+                'type' => 'string',
+                'label' => 'VPN',
+                'backend' => '',
+                'input' => 'text',
+                'wysiwyg_enabled'   => false,
+                'source' => '',
+                'required' => false,
+                'sort_order' => 5,
+                'global' => \Magento\Catalog\Model\ResourceModel\Eav\Attribute::SCOPE_GLOBAL,
+                'used_in_product_listing' => true,
+                'visible_on_front' => true,
+                'attribute_set' => 'Default',
+            ]
+        );
+
+        $eavSetup->addAttribute(
+            \Magento\Catalog\Model\Product::ENTITY,
+            'copywriteinfo',
+            [
+                'type' => 'text',
+                'label' => 'CopyWriteInfo',
                 'backend' => '',
                 'input' => 'text',
                 'wysiwyg_enabled'   => false,
@@ -61,7 +63,7 @@ class InstallData implements InstallDataInterface
                 'global' => \Magento\Catalog\Model\ResourceModel\Eav\Attribute::SCOPE_STORE,
                 'used_in_product_listing' => true,
                 'visible_on_front' => true,
-                'attribute_set' => 'MyCustomAttribute',
+                'attribute_set' => 'Default',
             ]
         );
 
