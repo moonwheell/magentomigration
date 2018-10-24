@@ -8,7 +8,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Psr\Log\LoggerInterface;
 
 use Magento\Framework\{
-    Data\Collection\EntityFactoryInterface,
+    Data\Collection\EntityFactory,
     Data\Collection\Db\FetchStrategyInterface,
     Event\ManagerInterface,
     Model\ResourceModel\Db\AbstractDb,
@@ -27,7 +27,7 @@ class Collection extends GridCollection implements SearchResultInterface
 
     /**
      * @param AttributeRepositoryInterface $attributeRepository
-     * @param EntityFactoryInterface $entityFactory
+     * @param EntityFactory $entityFactory
      * @param LoggerInterface $logger
      * @param FetchStrategyInterface $fetchStrategy
      * @param ManagerInterface $eventManager
@@ -41,8 +41,9 @@ class Collection extends GridCollection implements SearchResultInterface
      * @param AbstractDb|null $resource
      */
     public function __construct(
-        AttributeRepositoryInterface $attributeRepository,
-        EntityFactoryInterface $entityFactory,
+
+        EntityFactory $entityFactory,
+//        AttributeRepositoryInterface $attributeRepository,
         LoggerInterface $logger,
         FetchStrategyInterface $fetchStrategy,
         ManagerInterface $eventManager,
@@ -57,8 +58,8 @@ class Collection extends GridCollection implements SearchResultInterface
     )
     {
         parent::__construct(
-            $attributeRepository,
             $entityFactory,
+//            $attributeRepository,
             $logger,
             $fetchStrategy,
             $eventManager,
