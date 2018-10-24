@@ -32,14 +32,15 @@ class Collection extends GridCollection implements SearchResultInterface
      * @param FetchStrategyInterface $fetchStrategy
      * @param ManagerInterface $eventManager
      * @param StoreManagerInterface $storeManager
-     * @param $mainTable
+     * @param mixed|null $mainTable
      * @param $eventPrefix
      * @param $eventObject
-     * @param $resourceModel
+     * @param mixed $resourceModel
      * @param string $model
      * @param null $connection
      * @param AbstractDb|null $resource
      */
+
     public function __construct(
 
         EntityFactory $entityFactory,
@@ -56,6 +57,7 @@ class Collection extends GridCollection implements SearchResultInterface
         $connection = null,
         AbstractDb $resource = null
     )
+
     {
         parent::__construct(
             $entityFactory,
@@ -72,6 +74,7 @@ class Collection extends GridCollection implements SearchResultInterface
         $this->_init($model, $resourceModel);
         $this->setMainTable($mainTable);
     }
+
 
     protected function _initSelect()
     {

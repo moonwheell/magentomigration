@@ -1,8 +1,5 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-	<!--<preference for="Gwd\CustomCatalog\Api\GwcatalogRepositoryInterface" type="Gwd\CustomCatalog\Model\GwcatalogRepository"/>-->
-	<!--<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogInterface" type="Gwd\CustomCatalog\Model\Gwcatalog"/>-->
-	<!--<preference for="Gwd\CustomCatalog\Api\Data\GwcatalogSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>-->
 
 	<preference for="Gwd\CustomCatalog\Api\CustomCatalogApiInterface" type="Gwd\CustomCatalog\Model\CustomCatalogApi"/>
 
@@ -12,6 +9,16 @@
 			<!--<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>-->
 		<!--</arguments>-->
 	<!--</virtualType>-->
+
+	<type name="Gwd\CustomCatalog\Model\Grid\Collection">
+		<arguments>
+			<argument name="mainTable" xsi:type="string">catalog_product_entity</argument>
+			<argument name="eventPrefix" xsi:type="string">gwd_customcatalog_grid_collection</argument>
+			<!--<argument name="eventObject" xsi:type="string">gwd_customcatalog_gwcatalog_grid_collection</argument>-->
+			<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>
+		</arguments>
+	</type>
+
 	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
 		<arguments>
 			<argument name="collections" xsi:type="array">
