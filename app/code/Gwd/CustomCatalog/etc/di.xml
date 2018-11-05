@@ -12,9 +12,9 @@
 
 	<type name="Gwd\CustomCatalog\Model\Grid\Collection">
 		<arguments>
-			<argument name="mainTable" xsi:type="string">catalog_product_entity</argument>
+			<argument name="mainTable" xsi:type="string">catalog_category_product</argument>
 			<argument name="eventPrefix" xsi:type="string">gwd_customcatalog_grid_collection</argument>
-			<!--<argument name="eventObject" xsi:type="string">gwd_customcatalog_gwcatalog_grid_collection</argument>-->
+			<argument name="eventObject" xsi:type="string">gwd_customcatalog_grid_collection</argument>
 			<argument name="resourceModel" xsi:type="string">Magento\Catalog\Model\ResourceModel\Product\Collection</argument>
 		</arguments>
 	</type>

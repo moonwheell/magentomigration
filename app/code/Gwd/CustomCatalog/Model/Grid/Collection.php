@@ -2,7 +2,6 @@
 
 namespace Gwd\CustomCatalog\Model\Grid;
 
-use Magento\Eav\Api\AttributeRepositoryInterface;
 use Magento\Catalog\Model\ResourceModel\Product\Collection as GridCollection;
 use Magento\Store\Model\StoreManagerInterface;
 use Psr\Log\LoggerInterface;
@@ -26,25 +25,23 @@ class Collection extends GridCollection implements SearchResultInterface
     protected $aggregations;
 
     /**
-     * @param AttributeRepositoryInterface $attributeRepository
-     * @param EntityFactory $entityFactory
-     * @param LoggerInterface $logger
-     * @param FetchStrategyInterface $fetchStrategy
-     * @param ManagerInterface $eventManager
-     * @param StoreManagerInterface $storeManager
+     * @param \Magento\Framework\Data\Collection\EntityFactory $entityFactory
+     * @param \Psr\Log\LoggerInterface $logger
+     * @param \Magento\Framework\Data\Collection\Db\FetchStrategyInterface $fetchStrategy
+     * @param \Magento\Framework\Event\ManagerInterface $eventManager
+     * @param \Magento\Store\Model\StoreManagerInterface $storeManager
      * @param mixed|null $mainTable
-     * @param $eventPrefix
-     * @param $eventObject
+     * @param \Magento\Framework\Model\ResourceModel\Db\AbstractDb $eventPrefix
+     * @param mixed $eventObject
      * @param mixed $resourceModel
      * @param string $model
      * @param null $connection
-     * @param AbstractDb|null $resource
+     * @param \Magento\Framework\Model\ResourceModel\Db\AbstractDb|null $resource
      */
 
     public function __construct(
 
         EntityFactory $entityFactory,
-//        AttributeRepositoryInterface $attributeRepository,
         LoggerInterface $logger,
         FetchStrategyInterface $fetchStrategy,
         ManagerInterface $eventManager,
@@ -59,9 +56,16 @@ class Collection extends GridCollection implements SearchResultInterface
     )
 
     {
+
+
+        echo '<pre>';
+        var_dump(get_class($this));
+        echo '</pre>';
+        die;
+
+
         parent::__construct(
             $entityFactory,
-//            $attributeRepository,
             $logger,
             $fetchStrategy,
             $eventManager,
@@ -115,17 +119,26 @@ class Collection extends GridCollection implements SearchResultInterface
     {
         return $this->aggregations;
     }
-
     /**
      * @param AggregationInterface $aggregations
-     *
      * @return $this
      */
     public function setAggregations($aggregations)
     {
         $this->aggregations = $aggregations;
     }
-
+    /**
+     * Retrieve all ids for collection
+     * Backward compatibility with EAV collection
+     *
+     * @param int $limit
+     * @param int $offset
+     * @return array
+     */
+    public function getAllIds($limit = null, $offset = null)
+    {
+        return $this->getConnection()->fetchCol($this->_getAllIdsSelect($limit, $offset), $this->_bindParams);
+    }
     /**
      * Get search criteria.
      *
@@ -135,22 +148,17 @@ class Collection extends GridCollection implements SearchResultInterface
     {
         return null;
     }
-
     /**
      * Set search criteria.
      *
      * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
-     *
      * @return $this
      * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
-    public function setSearchCriteria(
-        \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria = null
-    )
+    public function setSearchCriteria(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria = null)
     {
         return $this;
     }
-
     /**
      * Get total count.
      *
@@ -160,12 +168,10 @@ class Collection extends GridCollection implements SearchResultInterface
     {
         return $this->getSize();
     }
-
     /**
      * Set total count.
      *
      * @param int $totalCount
-     *
      * @return $this
      * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
@@ -173,12 +179,10 @@ class Collection extends GridCollection implements SearchResultInterface
     {
         return $this;
     }
-
     /**
      * Set items list.
      *
      * @param \Magento\Framework\Api\ExtensibleDataInterface[] $items
-     *
      * @return $this
      * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
