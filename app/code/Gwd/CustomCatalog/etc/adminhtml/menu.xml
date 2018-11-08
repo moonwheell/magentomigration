@@ -1,7 +1,12 @@
-<?xml version="1.0" ?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-	<menu>
-		<add action="gwd_customcatalog/gwcatalog/index" id="Gwd_CustomCatalog::gwd_customcatalog_gwcatalog" module="Gwd_CustomCatalog"
-			 parent="Magento_Catalog::inventory" resource="Magento_Backend::content" sortOrder="9999" title="CustomCatalog"/>
-	</menu>
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Gwd. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Gwd_CustomCatalog::gwd_custom_index" title="CustomCatalog" module="Gwd_CustomCatalog"  sortOrder="20" dependsOnModule="Gwd_CustomCatalog" action="customcatalog/custom/index" resource="Gwd_CustomCatalog::gwd_custom_index"/>
+<!--AddMenu-->
+    </menu>
 </config>
