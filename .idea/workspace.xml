@@ -2,11 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe2743c-d82d-440c-a965-76cd323332f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
       <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/pub/index.php" afterPath="$PROJECT_DIR$/pub/index.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Block/Store/Switcher/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Controller/Adminhtml/Auth/Login/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Controller/Adminhtml/Dashboard/Index/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Controller/Adminhtml/Index/Index/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/View/Result/ForwardFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/View/Result/Redirect/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Bundle/Api/Data/BundleOptionInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Captcha/Model/ResourceModel/LogFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/CategoryExtensionInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductOptionExtension.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductOptionExtensionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductOptionExtensionInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Builder/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Index/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/NewAction/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Validate/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Category/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/CustomOptions/CustomOptionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/GroupFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/TypeTransitionManager/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Validator/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductOptionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/View/Asset/ImageFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Ui/DataProvider/Product/ProductCollection/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogSearch/Model/ResourceModel/Search/Collection/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/ConfigurableProduct/Model/Quote/Item/ConfigurableItemOptionValueFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CurrencySymbol/Model/System/CurrencysymbolFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/Model/Address/Config/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/Model/Address/Config/Reader/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/Model/Group/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Directory/Model/AllowedCountries/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Directory/Model/Country/FormatFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Downloadable/Model/DownloadableOptionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Api/Data/AttributeGroupSearchResultsInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Api/Data/AttributeSetSearchResultsInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/AttributeSetRepository/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/Entity/Attribute/Source/BooleanFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/Attribute/Option/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/Attribute/OptionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/AttributeFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Api/AttributeInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/Config/Initial/Reader/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/State/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Controller/Result/Json/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/View/PageLayout/ConfigFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/NewRelicReporting/Model/UsersFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/PageCache/Observer/FlushFormKey/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Payment/Helper/Data/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Payment/Model/Config/Reader/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtension.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtensionInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtensionInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/CartSearchResultsInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/RateResult/ErrorFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/RateResult/MethodFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/Total/CollectorFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/QuoteRepository/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ResourceModel/Quote/Collection/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ResourceModel/Quote/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ShippingAssignmentFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ShippingFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/ReleaseNotification/Model/Viewer/LogFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Reports/Model/ResourceModel/Order/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/CreditmemoSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/InvoiceCommentInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/InvoiceCommentSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/InvoiceSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtension.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtensionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtensionInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderItemSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/ShipmentSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Config/Reader/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Creditmemo/ItemFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Email/SenderBuilderFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Invoice/ItemFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Shipment/ItemFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/ShipmentRepository/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Status/HistoryFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/StatusFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/OrderFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/OrderRepository/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Address/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Creditmemo/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Handler/Address/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Invoice/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Item/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Payment/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Shipment/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Shipment/Track/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Status/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Status/History/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Tax/ItemFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Report/Bestsellers/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Report/OrderFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/CouponFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/ResourceModel/Coupon/UsageFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/ResourceModel/Rule/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/Rule/CustomerFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Search/Model/ResourceModel/Query/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Shipping/Model/Rate/ResultFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Shipping/Model/Tracking/Result/StatusFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Api/Data/OrderTaxDetailsAppliedTaxInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Api/Data/OrderTaxDetailsInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Api/Data/OrderTaxDetailsItemInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Config/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/ResourceModel/Sales/Order/Tax/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Sales/Total/Quote/Subtotal/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Sales/Total/Quote/Tax/Interceptor.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Theme/Model/ResourceModel/Theme/File/CollectionFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Api/Data/BookmarkInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Api/Data/BookmarkSearchResultsInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/User/Model/UserFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Weee/Model/Tax/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Widget/Model/WidgetFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/Checkout/AddressInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/CollectionPointSearchResultInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/QuoteCollectionPointInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/SearchRequestInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/Order/ShippingExperienceInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Attribute/CheckoutFieldInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Schema/CheckoutFieldFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/ResourceModel/Repository/OrderRepositoryInterface/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/ResourceModel/Repository/ShipmentRepositoryInterface/Proxy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Rest/Request/AuthRequestInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Webservice/HttpClientInterfaceFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/attribute-set-select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/attributes-insert-listing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/dynamic-rows-import-custom-options.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/dynamic-rows-tier-price.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/import-handler.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/new-attribute-insert-form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/new-category.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_CatalogInventory/js/components/qty-validator-changer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_CatalogInventory/js/components/use-config-min-sale-qty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_CatalogInventory/js/components/use-config-settings.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/associated-product-insert-listing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/container-configurable-handler.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/custom-options-warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/dynamic-rows-configurable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/modal-configurable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/price-configurable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/variations/variations.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/product/product.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Downloadable/js/components/is-downloadable-handler.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Swatches/css/swatches.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/dnd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/dynamic-rows-grid.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/dynamic-rows.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/record.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/adapter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/adapter/buttons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/button-adapter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/fieldset.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/group.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/html.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/insert-form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/insert-listing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/insert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/abstract.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/single-checkbox-use-config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/single-checkbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/textarea.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/ui-select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/wysiwyg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/provider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/actions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/multiselect.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/thumbnail.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/bookmarks/bookmarks.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/bookmarks/storage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/button/split.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/filters/chips.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/filters/filters.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/filters/range.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/massactions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/paging/paging.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/paging/sizes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/search/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/toolbar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/tree-massactions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/collapsible.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/validation/rules.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/validation/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/validation/validator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/view/utils/raf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/modal/modal-component.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/content/content.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/dynamic-rows/templates/grid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/button/container.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/button/simple.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/complex.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/single/switcher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/button.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/date.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/input.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/select.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/field.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/fieldset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/actions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/multiselect.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/text.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/thumbnail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/thumbnail/preview.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/columns/multiselect.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/columns/text.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/controls/bookmarks/bookmarks.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/controls/bookmarks/view.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/controls/columns.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/chips.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/elements/group.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/elements/ui-select-optgroup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/elements/ui-select.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/field.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/filters.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/listing.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/paging-total.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/paging/paging.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/paging/sizes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/search/search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/sticky/filters.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/sticky/listing.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/sticky/sticky.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/submenu.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/toolbar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/tree-massactions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/group/group.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/modal/modal-component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Weee/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/fonts/opensans/light/opensans-300.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/ajax-loader-small.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/loader-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/loader-2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/magento-logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/jquery/colorpicker/css/colorpicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/jquery/fileUploader/css/jquery.fileupload-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/js-translation.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/moment-timezone-with-data.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pub/static/deployed_version.txt" afterPath="$PROJECT_DIR$/pub/static/deployed_version.txt" />
+      <change beforePath="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php" afterPath="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,103 +272,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductProcessUrlRewriteSavingObserver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/AbstractModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="436" column="20" lean-forward="false" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3263">
+              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="177" column="35" lean-forward="false" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-633">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/events.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Save.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Data/Collection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="685" column="20" lean-forward="false" selection-start-line="685" selection-start-column="20" selection-end-line="685" selection-end-column="20" />
-              <folding>
-                <marker date="1536069034000" expanded="true" signature="16424:16536" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstallSchema.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Setup/InstallSchema.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup/src/Magento/Setup/Model/FixtureGenerator/ProductGenerator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="217" column="14" lean-forward="false" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlRewrite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Model/UrlRewrite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="86" column="97" lean-forward="false" selection-start-line="86" selection-start-column="88" selection-end-line="86" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlRewrite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Service/V1/Data/UrlRewrite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlRewriteCollection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Model/ResourceModel/UrlRewriteCollection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlRewrite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Model/ResourceModel/UrlRewrite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="General.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -127,16 +376,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\Magento\Eav\Model\Entity\Collection\AbstractCollection</find>
-      <find>_con</find>
-      <find>id</find>
-      <find>item</find>
-      <find>$collection-&gt;joinUrlRewrite();</find>
-      <find>CatalogInventoryConfigurableProduct</find>
-      <find>Gwd\CustomCatalog\Model\Config\Source\Options</find>
-      <find>ReflectionClass-&gt;__construct('</find>
-      <find>_collectionFactory</find>
-      <find>resource</find>
       <find>$collectionFactory</find>
       <find>catalog_product_entity</find>
       <find>Gwd\CustomCatalog\Model\Custom</find>
@@ -157,6 +396,16 @@
       <find>url_rewrite</find>
       <find>request_path</find>
       <find>git</find>
+      <find>AnchorUrlRewriteGenerator</find>
+      <find>Magento\CatalogUrlRewrite\Model\Product\AnchorUrlRewriteGenerator</find>
+      <find>catalog_category_save_after</find>
+      <find>rew</find>
+      <find>process_url_rewrite_saving</find>
+      <find>catalog_product_save_after</find>
+      <find>$model</find>
+      <find>$_product</find>
+      <find>test-SKU</find>
+      <find>ProductProcessUrlRewriteSavingObserver</find>
     </findStrings>
     <replaceStrings>
       <replace>entity_id</replace>
@@ -167,6 +416,7 @@
       <replace>name</replace>
       <replace>GwdManagementInterface</replace>
       <replace>$vpn</replace>
+      <replace>$model</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/magento/module-catalog/view</dir>
@@ -185,9 +435,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Gwcatalog/Delete.php" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Gwcatalog.php" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Api/GwdcatalogInterface.php" />
         <option value="$PROJECT_DIR$/app/code/Webspeaks/ProductsGrid/etc/adminhtml/menu.xml" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config/Source/Options.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Gwdcatalog.php" />
@@ -227,15 +474,18 @@
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/view/adminhtml/layout/customcatalog_custom_index.xml" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php" />
         <option value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php" />
         <option value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php" />
         <option value="$PROJECT_DIR$/pub/index.php" />
         <option value="$PROJECT_DIR$/var/log/system.log" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php" />
+        <option value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/events.xml" />
+        <option value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php" />
+        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
+        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
       </list>
     </option>
   </component>
@@ -518,10 +768,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="38" />
+    <option name="y" value="719" />
+    <option name="width" value="1679" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -601,6 +851,48 @@
               <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Edit" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -623,6 +915,118 @@
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Gwd" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Setup" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CatalogUrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CatalogUrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CatalogUrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CatalogUrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DbStorage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="V1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UrlRewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="V1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Data" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
@@ -719,6 +1123,52 @@
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Observer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-cms-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-cms-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -785,7 +1235,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
-    <property name="SearchEverywhereHistoryKey" value="\Magento\UrlRewrite\Service\V1\Data\UrlRewrite&#9;null&#9;null&#10;\Magento\Catalog\Model\Product\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/Product/ProductList&#10;module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#10;module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#10;magento/framework/DB/Statement/Pdo/Mysql.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/DB/Statement/Pdo/Mysql.php&#10;\Magento\Catalog\Model\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;\Magento\Backend\Block\Widget\Grid\Container&#9;null&#9;null&#10;/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;html/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd\CustomCatalog\Model\Config\Source\Options&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;app/code/Magento/CatalogInventoryConfigurableProduct/Plugin/GetInStockAttributeOptionsPlugin.php#L54-L54&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;Magento\Catalog\Model\Product\Interceptor&#9;null&#9;null&#10;/var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory&#9;null&#9;null&#10;Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection&#9;null&#9;null&#10;\Magento\Framework\Model\ResourceModel\Db\AbstractDb&#9;null&#9;null&#10;Webspeaks\ProductsGrid\Model\ResourceModel\Contact\Grid\Collection&#9;FILE&#9;file:///var/www/magento2/magestudy/html/app/code/Webspeaks/ProductsGrid/Model/ResourceModel/Contact/Grid/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory.&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Data/Collection/EntityFactory.php&#10;vendor\magento\module-backend\Model\View\Layout&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-backend/Model/View/Layout&#10;Data\Collection\EntityFactoryInterface&#9;null&#9;null&#10;magento/framework/View/Result/Page.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/View/Result/Page.php&#10;study/html/vendor/magento/framework/View/Result/Page.php&#9;null&#9;null&#10;module-developer/Model/View/Page/Config/RendererFactory.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;vendor/magento/module-config/App/Config/Type/System&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-config/App/Config/Type/System.php&#10;Magento\Framework\Code\Reader\ClassReader&#9;null&#9;null&#10;vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd/CustomCatalog/Model/Config/Source/Options&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensionAttributesInterface&#9;null&#9;null&#10;Magento\Checkout\Api\Data\ShippingInformationInterface&#9;null&#9;null&#10;\Magento\Framework\App\ObjectManager&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensibleDataInterface&#9;null&#9;null&#10;Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;Magento\Catalog\Api\Data\ProductInterface&#9;null&#9;null&#10;\Magento\Eav\Api\Data\AttributeSetInterface&#9;null&#9;null&#10;Magento\Sales\Api\Data\OrderInterface&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\CollectionFactory&#9;null&#9;null&#10;CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Ui\DataProvider\AddFieldToCollectionInterface&#9;null&#9;null&#10;AddFieldToCollectionInterface&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-ui/DataProvider/AddFieldToCollectionInterface.php&#10;Magento\Ui\DataProvider\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/Catalog/Ui/DataProvider&#10;Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider&#9;null&#9;null&#10;magento/module-ui/Component/Listing/Columns&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-ui/Component/Listing/Columns.php&#10;ProductDataProvider&#9;null&#9;null&#10;Magento_Ui/js/grid/columns/select&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Magento\Framework\Event\Manager&#9;null&#9;null&#10;Magento\CmsUrlRewrite\Observer\ProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php&#10;Magento\Catalog\Model\Product&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Observer\ProductProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Mod&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/CatalogUrlRewrite/Model&#10;\Magento\UrlRewrite\Service\V1\Data\UrlRewrite&#9;null&#9;null&#10;\Magento\Catalog\Model\Product\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/Product/ProductList&#10;module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#10;module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#10;magento/framework/DB/Statement/Pdo/Mysql.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/DB/Statement/Pdo/Mysql.php&#10;\Magento\Catalog\Model\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;\Magento\Backend\Block\Widget\Grid\Container&#9;null&#9;null&#10;/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;html/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd\CustomCatalog\Model\Config\Source\Options&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;app/code/Magento/CatalogInventoryConfigurableProduct/Plugin/GetInStockAttributeOptionsPlugin.php#L54-L54&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;Magento\Catalog\Model\Product\Interceptor&#9;null&#9;null&#10;/var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory&#9;null&#9;null&#10;Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection&#9;null&#9;null&#10;\Magento\Framework\Model\ResourceModel\Db\AbstractDb&#9;null&#9;null&#10;Webspeaks\ProductsGrid\Model\ResourceModel\Contact\Grid\Collection&#9;FILE&#9;file:///var/www/magento2/magestudy/html/app/code/Webspeaks/ProductsGrid/Model/ResourceModel/Contact/Grid/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory.&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Data/Collection/EntityFactory.php&#10;vendor\magento\module-backend\Model\View\Layout&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-backend/Model/View/Layout&#10;Data\Collection\EntityFactoryInterface&#9;null&#9;null&#10;magento/framework/View/Result/Page.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/View/Result/Page.php&#10;study/html/vendor/magento/framework/View/Result/Page.php&#9;null&#9;null&#10;module-developer/Model/View/Page/Config/RendererFactory.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;vendor/magento/module-config/App/Config/Type/System&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-config/App/Config/Type/System.php&#10;Magento\Framework\Code\Reader\ClassReader&#9;null&#9;null&#10;vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd/CustomCatalog/Model/Config/Source/Options&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensionAttributesInterface&#9;null&#9;null&#10;Magento\Checkout\Api\Data\ShippingInformationInterface&#9;null&#9;null&#10;\Magento\Framework\App\ObjectManager&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensibleDataInterface&#9;null&#9;null&#10;Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;Magento\Catalog\Api\Data\ProductInterface&#9;null&#9;null&#10;\Magento\Eav\Api\Data\AttributeSetInterface&#9;null&#9;null&#10;Magento\Sales\Api\Data\OrderInterface&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\CollectionFactory&#9;null&#9;null&#10;CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Ui\DataProvider\AddFieldToCollectionInterface&#9;null&#9;null" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -887,7 +1337,7 @@
       <workItem from="1541665340835" duration="16759000" />
       <workItem from="1541683039081" duration="379000" />
       <workItem from="1541683440644" duration="2046000" />
-      <workItem from="1541750459628" duration="14827000" />
+      <workItem from="1541750459628" duration="25452000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1541406345572</created>
@@ -900,7 +1350,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366140000" />
+    <option name="totallyTimeSpent" value="376765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,21 +1448,6 @@
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php</url>
-          <line>36</line>
-          <option name="timeStamp" value="244" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php</url>
-          <line>38</line>
-          <option name="timeStamp" value="245" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php</url>
-          <line>39</line>
-          <option name="timeStamp" value="246" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/index.php</url>
           <line>2</line>
           <option name="timeStamp" value="252" />
@@ -1042,11 +1477,16 @@
           <line>13</line>
           <option name="timeStamp" value="259" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php</url>
+          <line>105</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="262" />
+      <option name="time" value="264" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -1106,99 +1546,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/Block/Widget/ContainerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/adminhtml/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/acl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/module.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Context.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Custom.php" />
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallSchema.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1914">
-          <caret line="460" column="65" lean-forward="false" selection-start-line="460" selection-start-column="43" selection-end-line="460" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="486" column="21" lean-forward="false" selection-start-line="486" selection-start-column="21" selection-end-line="486" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="85" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassStatus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/NewAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/Block/Widget/Form/Generic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/Action.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1328">
@@ -1266,34 +1613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="174" column="5" lean-forward="false" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1333,22 +1656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="167" column="24" lean-forward="false" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1475,14 +1782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1493,8 +1792,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="85" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/magento2-base/dev/tests/integration/testsuite/Magento/CatalogUrlRewrite/Observer/ProductProcessUrlRewriteSavingObserverTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/NewAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/di.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms-url-rewrite/etc/events.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="124" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms-url-rewrite/Observer/ProcessUrlRewriteSavingObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductScopeRewriteGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-842">
+          <caret line="69" column="32" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="e#148#200#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteRemovingObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/ObserverInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/events.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/AbstractModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="436" column="20" lean-forward="false" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-633">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3263">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="177" column="35" lean-forward="false" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
           <folding />
         </state>
       </provider>

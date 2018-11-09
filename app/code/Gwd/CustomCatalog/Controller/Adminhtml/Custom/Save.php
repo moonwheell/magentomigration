@@ -41,40 +41,32 @@ class Save extends \Magento\Backend\App\Action
                 $model->load($id);
             }
 
-
             $model->setData($data);
-            $model->setName('Firsttest');
-            $model->setStatus(1);
-            $model->setWeight(100);
-            $model->setVisibility(4);
-            $model->setTaxClassId(0);
-            $model->setTypeId('simple');
-            $model->setPrice(100);
-            $model->setStockData(
-                array(
-                    'use_config_manage_stock' => 0,
-                    'manage_stock' => 1,
-                    'is_in_stock' => 1,
-                    'qty' => 999999999
-                )
-            );
 
+//            $model->setName('Test Product');
+//            $model->setTypeId('simple');
+//            $model->setUrlKey(rand(1,99999999) . '.html');
+//            $model->setAttributeSetId(4);
+////            $model->setSku('test-SKU');
+//            $model->setWebsiteIds(array(1));
+//            $model->setVisibility(4);
+//            $model->setPrice(array(1));
+//            $model->setImage('/testimg/test.jpg');
+//            $model->setSmallImage('/testimg/test.jpg');
+//            $model->setThumbnail('/testimg/test.jpg');
+//            $model->setStockData(array(
+//                    'use_config_manage_stock' => 0, //'Use config settings' checkbox
+//                    'manage_stock' => 1, //manage stock
+//                    'min_sale_qty' => 1, //Minimum Qty Allowed in Shopping Cart
+//                    'max_sale_qty' => 2, //Maximum Qty Allowed in Shopping Cart
+//                    'is_in_stock' => 1, //Stock Availability
+//                    'qty' => 100 //qty
+//                )
+//            );
 
-//            $model->setUrlRew(rand());
-
-//            echo '<pre>';
-//            var_dump($model->getData());
-//            echo '</pre>';
-//            die;
-
-
-//            try {
+            try {
                 $model->save();
 
-                echo '<pre>';
-                var_dump($model);
-                echo '</pre>';
-                die;
 
                 $this->messageManager->addSuccess(__('The Frist Grid Has been Saved.'));
                 $this->_objectManager->get('Magento\Backend\Model\Session')->setFormData(false);
@@ -83,19 +75,15 @@ class Save extends \Magento\Backend\App\Action
                     return;
                 }
                 $this->_redirect('*/*/');
-//                return;
-//            } catch (\Magento\Framework\Model\Exception $e) {
-//                $this->messageManager->addError($e->getMessage());
-//            } catch (\RuntimeException $e) {
-//                $this->messageManager->addError($e->getMessage());
-//            } catch (\Exception $e) {
-//                $this->messageManager->addException($e, __('Something went wrong while saving the banner.'));
-//            }
+                return;
+            } catch (\Magento\Framework\Model\Exception $e) {
+                $this->messageManager->addError($e->getMessage());
+            } catch (\RuntimeException $e) {
+                $this->messageManager->addError($e->getMessage());
+            } catch (\Exception $e) {
+                $this->messageManager->addException($e, __('Something went wrong while saving the banner.'));
+            }
 
-            echo '<pre>';
-            var_dump($data);
-            echo '</pre>';
-            die;
 
             $this->_getSession()->setFormData($data);
             $this->_redirect('*/*/edit', array());

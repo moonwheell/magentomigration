@@ -79,7 +79,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         parent::_construct();
 		
         $this->setId('productGrid');
-        $this->setDefaultSort('id');
+        $this->setDefaultSort('entity_id');
         $this->setDefaultDir('DESC');
         $this->setSaveParametersInSession(true);
         $this->setUseAjax(false);
@@ -103,23 +103,15 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 		try{
 			
           $collection = $this->_collectionFactory->create()->load();
-//			$collection = $this->_collectionFactory->load();
-//            $collection->addAttributeToSelect('copywriteinfo');
-//            $collection->addAttributeToSelect('vpn');
-//            $collection->addAttributeToSelect('sku');
+            $collection->addAttributeToSelect('*');
+            $collection->addAttributeToSelect('vpn');
+            $collection->addAttributeToSelect('sku');
 			$this->setCollection($collection);
 
 			parent::_prepareCollection();
 
 			return $this;
 
-
-//            $collection = $this->_collectionFactory->create();
-//            $collection->addAttributeToSelect('name');
-//            $collection->addAttributeToSelect('sku');
-//            $collection->addAttributeToSelect('price');
-//            $this->setCollection($collection);
-//            return parent::_prepareCollection();
 		}
 		catch(Exception $e)
 		{
@@ -157,9 +149,9 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
             'id',
             [
-                'header' => __('ID'),
+                'header' => __('Product ID'),
                 'type' => 'number',
-                'index' => 'id',
+                'index' => 'entity_id',
                 'header_css_class' => 'col-id',
                 'column_css_class' => 'col-id'
             ]
@@ -167,7 +159,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
         'copywriteinfo',
         [
-            'header' => __('copywriteinfo'),
+            'header' => __('CopyWriteInfo'),
             'index' => 'copywriteinfo',
             'class' => 'copywriteinfo'
         ]
@@ -175,7 +167,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 		$this->addColumn(
             'vpn',
             [
-                'header' => __('vpn'),
+                'header' => __('VPN'),
                 'index' => 'vpn',
                 'class' => 'vpn'
             ]
@@ -183,7 +175,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
             'sku',
             [
-                'header' => __('sku'),
+                'header' => __('SKU'),
                 'index' => 'sku',
                 'class' => 'sku'
             ]
