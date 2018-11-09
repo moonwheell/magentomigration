@@ -33,7 +33,7 @@ class InstallData implements InstallDataInterface
             \Magento\Catalog\Model\Product::ENTITY,
             'vpn',
             [
-                'type' => 'string',
+                'type' => 'varchar',
                 'label' => 'VPN',
                 'backend' => '',
                 'input' => 'text',

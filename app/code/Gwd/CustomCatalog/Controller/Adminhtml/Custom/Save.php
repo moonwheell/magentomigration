@@ -10,8 +10,9 @@ class Save extends \Magento\Backend\App\Action
     {
 		
         $data = $this->getRequest()->getParams();
+
         if ($data) {
-            $model = $this->_objectManager->create('\Magento\Catalog\Model\Product');
+            $model = $this->_objectManager->create('Magento\Catalog\Model\Product');
 		
             /* if(isset($_FILES['image']['name']) && $_FILES['image']['name'] != '') {
 				try {
@@ -34,14 +35,22 @@ class Save extends \Magento\Backend\App\Action
 				$data['image'] = $data['image']['value'];
 			} */
 			$id = $this->getRequest()->getParam('id');
+
+
             if ($id) {
                 $model->load($id);
             }
-			
+
             $model->setData($data);
 
             try {
                 $model->save();
+
+//                echo '<pre>';
+//                var_dump($model);
+//                echo '</pre>';
+//                die;
+
                 $this->messageManager->addSuccess(__('The Frist Grid Has been Saved.'));
                 $this->_objectManager->get('Magento\Backend\Model\Session')->setFormData(false);
                 if ($this->getRequest()->getParam('back')) {
@@ -58,8 +67,13 @@ class Save extends \Magento\Backend\App\Action
                 $this->messageManager->addException($e, __('Something went wrong while saving the banner.'));
             }
 
+//            echo '<pre>';
+//            var_dump($data);
+//            echo '</pre>';
+//            die;
+
             $this->_getSession()->setFormData($data);
-            $this->_redirect('*/*/edit', array('banner_id' => $this->getRequest()->getParam('banner_id')));
+            $this->_redirect('*/*/edit', array());
             return;
         }
         $this->_redirect('*/*/');

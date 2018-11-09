@@ -2,8 +2,16 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
 
     <body>
-        <referenceContainer name="content">
+        <referenceContainer name="content" label="Content">
             <block class="Gwd\CustomCatalog\Block\Adminhtml\Custom" name="customcatalog_custom_container"/>
         </referenceContainer>
     </body>
 </page>
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">-->
+<!--<container name="root" label="Root">-->
+    <!--<block class="Vendor\Productattach\Block\Adminhtml\Productattach\Edit\Tab\Products" name="productattach.edit.tab.products"/>-->
+<!--</container>-->
+<!--</layout>-->

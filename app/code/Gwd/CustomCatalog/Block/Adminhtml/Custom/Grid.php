@@ -60,7 +60,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         \Magento\Backend\Block\Template\Context $context,
         \Magento\Backend\Helper\Data $backendHelper,
         \Magento\Store\Model\WebsiteFactory $websiteFactory,
-		\Magento\Catalog\Model\ResourceModel\Product\Collection $collectionFactory,
+        \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory,
         \Magento\Framework\Module\Manager $moduleManager,
         array $data = []
     ) {
@@ -102,16 +102,24 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     {
 		try{
 			
-			
-			$collection = $this->_collectionFactory->load();
-
-		  
-
+          $collection = $this->_collectionFactory->create()->load();
+//			$collection = $this->_collectionFactory->load();
+//            $collection->addAttributeToSelect('copywriteinfo');
+//            $collection->addAttributeToSelect('vpn');
+//            $collection->addAttributeToSelect('sku');
 			$this->setCollection($collection);
 
 			parent::_prepareCollection();
-		  
+
 			return $this;
+
+
+//            $collection = $this->_collectionFactory->create();
+//            $collection->addAttributeToSelect('name');
+//            $collection->addAttributeToSelect('sku');
+//            $collection->addAttributeToSelect('price');
+//            $this->setCollection($collection);
+//            return parent::_prepareCollection();
 		}
 		catch(Exception $e)
 		{
