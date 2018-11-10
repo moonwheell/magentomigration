@@ -3,260 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fe2743c-d82d-440c-a965-76cd323332f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
       <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Block/Store/Switcher/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Controller/Adminhtml/Auth/Login/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Controller/Adminhtml/Dashboard/Index/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Controller/Adminhtml/Index/Index/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/View/Result/ForwardFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/View/Result/Redirect/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Bundle/Api/Data/BundleOptionInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Captcha/Model/ResourceModel/LogFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/CategoryExtensionInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductOptionExtension.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductOptionExtensionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductOptionExtensionInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Builder/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Index/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/NewAction/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Save/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Validate/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Category/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/CustomOptions/CustomOptionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/GroupFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/TypeTransitionManager/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Validator/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductOptionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/View/Asset/ImageFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Ui/DataProvider/Product/ProductCollection/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogSearch/Model/ResourceModel/Search/Collection/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/ConfigurableProduct/Model/Quote/Item/ConfigurableItemOptionValueFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CurrencySymbol/Model/System/CurrencysymbolFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/Model/Address/Config/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/Model/Address/Config/Reader/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/Model/Group/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Directory/Model/AllowedCountries/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Directory/Model/Country/FormatFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Downloadable/Model/DownloadableOptionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Api/Data/AttributeGroupSearchResultsInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Api/Data/AttributeSetSearchResultsInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/AttributeSetRepository/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/Entity/Attribute/Source/BooleanFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/Attribute/Option/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/Attribute/OptionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/AttributeFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Api/AttributeInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/Config/Initial/Reader/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/State/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Controller/Result/Json/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/View/PageLayout/ConfigFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/NewRelicReporting/Model/UsersFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/PageCache/Observer/FlushFormKey/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Payment/Helper/Data/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Payment/Model/Config/Reader/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtension.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtensionInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtensionInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/CartSearchResultsInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/RateResult/ErrorFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/RateResult/MethodFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/Total/CollectorFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/QuoteRepository/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ResourceModel/Quote/Collection/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ResourceModel/Quote/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ShippingAssignmentFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ShippingFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/ReleaseNotification/Model/Viewer/LogFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Reports/Model/ResourceModel/Order/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/CreditmemoSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/InvoiceCommentInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/InvoiceCommentSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/InvoiceSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtension.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtensionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtensionInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderItemSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/ShipmentSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Config/Reader/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Creditmemo/ItemFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Email/SenderBuilderFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Invoice/ItemFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Shipment/ItemFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/ShipmentRepository/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/Status/HistoryFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/StatusFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/OrderFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/OrderRepository/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Address/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Creditmemo/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Handler/Address/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Invoice/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Item/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Payment/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Shipment/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Shipment/Track/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Status/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Status/History/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Tax/ItemFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Report/Bestsellers/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Report/OrderFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/CouponFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/ResourceModel/Coupon/UsageFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/ResourceModel/Rule/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/Rule/CustomerFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Search/Model/ResourceModel/Query/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Shipping/Model/Rate/ResultFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Shipping/Model/Tracking/Result/StatusFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Api/Data/OrderTaxDetailsAppliedTaxInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Api/Data/OrderTaxDetailsInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Api/Data/OrderTaxDetailsItemInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Config/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/ResourceModel/Sales/Order/Tax/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Sales/Total/Quote/Subtotal/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Sales/Total/Quote/Tax/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Theme/Model/ResourceModel/Theme/File/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Api/Data/BookmarkInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Api/Data/BookmarkSearchResultsInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/User/Model/UserFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Weee/Model/Tax/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Widget/Model/WidgetFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/Checkout/AddressInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/CollectionPointSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/QuoteCollectionPointInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/SearchRequestInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/Order/ShippingExperienceInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Attribute/CheckoutFieldInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Schema/CheckoutFieldFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/ResourceModel/Repository/OrderRepositoryInterface/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/ResourceModel/Repository/ShipmentRepositoryInterface/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Rest/Request/AuthRequestInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Webservice/HttpClientInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/images/product/placeholder/thumbnail.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/attribute-set-select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/attributes-insert-listing.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/dynamic-rows-import-custom-options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/dynamic-rows-tier-price.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/import-handler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/new-attribute-insert-form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/components/new-category.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_CatalogInventory/js/components/qty-validator-changer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_CatalogInventory/js/components/use-config-min-sale-qty.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_CatalogInventory/js/components/use-config-settings.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/associated-product-insert-listing.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/container-configurable-handler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/custom-options-warning.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/dynamic-rows-configurable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/modal-configurable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/components/price-configurable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/js/variations/variations.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_ConfigurableProduct/product/product.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Downloadable/js/components/is-downloadable-handler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Swatches/css/swatches.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/dnd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/dynamic-rows-grid.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/dynamic-rows.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/dynamic-rows/record.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/adapter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/adapter/buttons.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/button-adapter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/client.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/fieldset.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/group.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/html.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/insert-form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/insert-listing.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/components/insert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/abstract.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/date.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/single-checkbox-use-config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/single-checkbox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/textarea.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/ui-select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/element/wysiwyg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/form/provider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/date.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/multiselect.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/columns/thumbnail.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/bookmarks/bookmarks.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/bookmarks/storage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/button/split.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/filters/chips.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/filters/filters.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/filters/range.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/massactions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/paging/paging.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/paging/sizes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/search/search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/toolbar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/tree-massactions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/collapsible.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/validation/rules.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/validation/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/validation/validator.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/lib/view/utils/raf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/js/modal/modal-component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/content/content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/dynamic-rows/templates/grid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/button/container.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/button/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/complex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/components/single/switcher.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/date.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/input.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/element/select.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/field.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/form/fieldset.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/multiselect.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/text.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/thumbnail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/cells/thumbnail/preview.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/columns/multiselect.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/columns/text.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/controls/bookmarks/bookmarks.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/controls/bookmarks/view.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/controls/columns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/chips.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/elements/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/elements/ui-select-optgroup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/elements/ui-select.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/field.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/filters/filters.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/listing.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/paging-total.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/paging/paging.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/paging/sizes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/search/search.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/sticky/filters.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/sticky/listing.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/sticky/sticky.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/submenu.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/toolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/grid/tree-massactions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/group/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Ui/templates/modal/modal-component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/Magento_Weee/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/fonts/opensans/light/opensans-300.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/ajax-loader-small.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/loader-1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/loader-2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/images/magento-logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/jquery/colorpicker/css/colorpicker.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/jquery/fileUploader/css/jquery.fileupload-ui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/js-translation.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/adminhtml/Magento/backend/en_US/moment-timezone-with-data.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/deployed_version.txt" afterPath="$PROJECT_DIR$/pub/static/deployed_version.txt" />
       <change beforePath="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php" afterPath="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -272,31 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductProcessUrlRewriteSavingObserver.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductProcessUrlRewriteSavingObserver.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="431">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
+      <file leaf-file-name="UrlPersistInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Model/UrlPersistInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductUrlRewriteGenerator.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="127" column="40" lean-forward="true" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visibility.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product/Visibility.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -305,58 +62,8 @@
       <file leaf-file-name="AbstractModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/AbstractModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="190">
               <caret line="436" column="20" lean-forward="false" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstallData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3263">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="177" column="35" lean-forward="false" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-633">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/events.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -365,8 +72,18 @@
       <file leaf-file-name="Save.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="383">
+              <caret line="57" column="57" lean-forward="true" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="765" column="20" lean-forward="false" selection-start-line="765" selection-start-column="20" selection-end-line="765" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -376,10 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$collectionFactory</find>
-      <find>catalog_product_entity</find>
-      <find>Gwd\CustomCatalog\Model\Custom</find>
-      <find>_prepareColumns</find>
       <find>field</find>
       <find>product</find>
       <find>model</find>
@@ -406,6 +119,10 @@
       <find>$_product</find>
       <find>test-SKU</find>
       <find>ProductProcessUrlRewriteSavingObserver</find>
+      <find>getIsChangedWebsites(</find>
+      <find>Aceturtle</find>
+      <find>MagentoCatalogApiCategoryLinkManagementInterface</find>
+      <find>$urlPersist</find>
     </findStrings>
     <replaceStrings>
       <replace>entity_id</replace>
@@ -483,9 +200,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php" />
         <option value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/events.xml" />
+        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
         <option value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
       </list>
     </option>
   </component>
@@ -810,7 +527,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1228,6 +944,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1337,7 +1054,8 @@
       <workItem from="1541665340835" duration="16759000" />
       <workItem from="1541683039081" duration="379000" />
       <workItem from="1541683440644" duration="2046000" />
-      <workItem from="1541750459628" duration="25452000" />
+      <workItem from="1541750459628" duration="26177000" />
+      <workItem from="1541853585255" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1541406345572</created>
@@ -1350,7 +1068,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376765000" />
+    <option name="totallyTimeSpent" value="381234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1362,16 +1080,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="38" y="719" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815966" sideWeight="0.49585405" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36451614" sideWeight="0.5389718" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47311828" sideWeight="0.34715313" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35591397" sideWeight="0.4223328" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27307904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2763958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48172042" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1380,6 +1097,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36451614" sideWeight="0.4610282" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1486,7 +1204,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="264" />
+      <option name="time" value="265" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -1546,28 +1264,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1328">
-          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DB/Statement/Pdo/Mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1613,14 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="174" column="5" lean-forward="false" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1648,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1664,7 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-303">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1688,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,7 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="37" column="85" lean-forward="false" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1704,7 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1712,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="994" column="28" lean-forward="false" selection-start-line="994" selection-start-column="28" selection-end-line="994" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1730,7 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1738,7 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1746,7 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1762,7 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1770,23 +1448,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="217" column="14" lean-forward="false" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1794,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1810,7 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1864,14 +1531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteRemovingObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/ObserverInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1884,7 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1892,14 +1550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/AbstractModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="436" column="20" lean-forward="false" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1922,48 +1572,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3263">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="390">
           <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteRemovingObserver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="1140">
           <caret line="177" column="35" lean-forward="false" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-inventory/Model/Stock/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="505" column="71" lean-forward="false" selection-start-line="505" selection-start-column="50" selection-end-line="505" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="765" column="20" lean-forward="false" selection-start-line="765" selection-start-column="20" selection-end-line="765" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product/Visibility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/AbstractModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="436" column="20" lean-forward="false" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="57" column="57" lean-forward="true" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="127" column="40" lean-forward="true" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Model/UrlPersistInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
