@@ -1,7 +1,6 @@
 <?php
 
 namespace Gwd\CustomCatalog\Setup;
-use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
@@ -13,7 +12,6 @@ class InstallData implements InstallDataInterface
 {
     private $eavSetupFactory;
     private $attributeSetFactory;
-    private $attributeSet;
     private $categorySetupFactory;
 
     public function __construct(EavSetupFactory $eavSetupFactory, AttributeSetFactory $attributeSetFactory, CategorySetupFactory $categorySetupFactory )
@@ -27,7 +25,7 @@ class InstallData implements InstallDataInterface
     {
         $setup->startSetup();
 
-        // TO CREATE PRODUCT ATTRIBUTE
+
         $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,

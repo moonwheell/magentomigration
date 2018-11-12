@@ -42,38 +42,10 @@ class Save extends \Magento\Backend\App\Action
             }
 
             $model->setData($data);
-
-//            $model->setName('Test Product');
-//            $model->setTypeId('simple');
-//            $model->setUrlKey(rand(1,99999999) . '.html');
-//            $model->setUrlPath(rand(1,99999999));
-//            $model->setAttributeSetId(4);
-////            $model->setSku('test-SKU');
-//            $model->setWebsiteIds(array(1));
             $model->setVisibility(1);
-//            $model->setWebsiteIds(array(1)); // website ID
-//            $model->setCategoryIds(array(3,4));
-//            $model->setPrice(array(1));
-//            $model->setImage('/testimg/test.jpg');
-//            $model->setSmallImage('/testimg/test.jpg');
-//            $model->setThumbnail('/testimg/test.jpg');
-//            $model->setStockData(array(
-//                    'use_config_manage_stock' => 0, //'Use config settings' checkbox
-//                    'manage_stock' => 1, //manage stock
-//                    'min_sale_qty' => 1, //Minimum Qty Allowed in Shopping Cart
-//                    'max_sale_qty' => 2, //Maximum Qty Allowed in Shopping Cart
-//                    'is_in_stock' => 1, //Stock Availability
-//                    'qty' => 100 //qty
-//                )
-//            );
+//            $model->setName('Test Product');
 
-
-//            echo '<pre>';
-//            var_dump($model);
-//            echo '</pre>';
-//            die;
-
-//            try {
+            try {
                 $model->save();
 
 
@@ -84,14 +56,14 @@ class Save extends \Magento\Backend\App\Action
                     return;
                 }
                 $this->_redirect('*/*/');
-//                return;
-//            } catch (\Magento\Framework\Model\Exception $e) {
-//                $this->messageManager->addError($e->getMessage());
-//            } catch (\RuntimeException $e) {
-//                $this->messageManager->addError($e->getMessage());
-//            } catch (\Exception $e) {
-//                $this->messageManager->addException($e, __('Something went wrong while saving the banner.'));
-//            }
+                return;
+            } catch (\Magento\Framework\Model\Exception $e) {
+                $this->messageManager->addError($e->getMessage());
+            } catch (\RuntimeException $e) {
+                $this->messageManager->addError($e->getMessage());
+            } catch (\Exception $e) {
+                $this->messageManager->addException($e, __('Something went wrong while saving the banner.'));
+            }
 
 
             $this->_getSession()->setFormData($data);

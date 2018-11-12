@@ -1,15 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 10.11.18
- * Time: 15:47
- */
-
 namespace Gwd\CustomCatalog\Api;
 
-
-class CustomCatalogApiInterface
+interface CustomCatalogApiInterface
 {
+    /**
+     * Returns greeting message to user
+     *
+     * @api
+     * @param string $vpn.
+     * @return string Greeting message with users name.
+     */
+    public function getByVPN($vpn);
 
 }
