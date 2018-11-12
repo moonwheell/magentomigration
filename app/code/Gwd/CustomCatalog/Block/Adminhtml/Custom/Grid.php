@@ -1,6 +1,6 @@
 <?php
-namespace Gwd\CustomCatalog\Block\Adminhtml\Custom;
 
+namespace Gwd\CustomCatalog\Block\Adminhtml\Custom;
 
 class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 {
@@ -28,7 +28,11 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      * @var \Magento\Catalog\Model\Product\Attribute\Source\Status
      */
     protected $_status;
-	protected $_collectionFactory;
+
+    /**
+     * @var \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory
+     */
+    protected $_collectionFactory;
 
     /**
      * @var \Magento\Catalog\Model\Product\Visibility
@@ -46,9 +50,6 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      * @param \Magento\Store\Model\WebsiteFactory $websiteFactory
      * @param \Magento\Eav\Model\ResourceModel\Entity\Attribute\Set\CollectionFactory $setsFactory
      * @param \Magento\Catalog\Model\ProductFactory $productFactory
-     * @param \Magento\Catalog\Model\Product\Type $type
-     * @param \Magento\Catalog\Model\Product\Attribute\Source\Status $status
-     * @param \Magento\Catalog\Model\Product\Visibility $visibility
      * @param \Magento\Framework\Module\Manager $moduleManager
      * @param array $data
      * @param \Magento\Catalog\Model\ResourceModel\Product\Collection
@@ -63,9 +64,9 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory,
         \Magento\Framework\Module\Manager $moduleManager,
         array $data = []
-    ) {
-		
-		$this->_collectionFactory = $collectionFactory;
+    )
+    {
+        $this->_collectionFactory = $collectionFactory;
         $this->_websiteFactory = $websiteFactory;
         $this->moduleManager = $moduleManager;
         parent::__construct($context, $backendHelper, $data);
@@ -77,13 +78,12 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected function _construct()
     {
         parent::_construct();
-		
+
         $this->setId('productGrid');
         $this->setDefaultSort('entity_id');
         $this->setDefaultDir('DESC');
         $this->setSaveParametersInSession(true);
         $this->setUseAjax(false);
-       
     }
 
     /**
@@ -100,23 +100,22 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      */
     protected function _prepareCollection()
     {
-		try{
-			
-          $collection = $this->_collectionFactory->create()->load();
+        try {
+
+            $collection = $this->_collectionFactory->create()->load();
             $collection->addAttributeToSelect('*');
             $collection->addAttributeToSelect('vpn');
             $collection->addAttributeToSelect('sku');
-			$this->setCollection($collection);
+            $this->setCollection($collection);
 
-			parent::_prepareCollection();
+            parent::_prepareCollection();
 
-			return $this;
+            return $this;
 
-		}
-		catch(Exception $e)
-		{
-			echo $e->getMessage();die;
-		}
+        } catch (Exception $e) {
+            echo $e->getMessage();
+            die;
+        }
     }
 
     /**
@@ -137,12 +136,14 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
                 );
             }
         }
+
         return parent::_addColumnFilterToCollection($column);
     }
 
     /**
      * @return $this
-     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
+     * @throws \Exception
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
     protected function _prepareColumns()
     {
@@ -157,14 +158,14 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
             ]
         );
         $this->addColumn(
-        'copywriteinfo',
-        [
-            'header' => __('CopyWriteInfo'),
-            'index' => 'copywriteinfo',
-            'class' => 'copywriteinfo'
-        ]
+            'copywriteinfo',
+            [
+                'header' => __('CopyWriteInfo'),
+                'index' => 'copywriteinfo',
+                'class' => 'copywriteinfo'
+            ]
         );
-		$this->addColumn(
+        $this->addColumn(
             'vpn',
             [
                 'header' => __('VPN'),
@@ -181,9 +182,6 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
             ]
         );
 
-
-		/*{{CedAddGridColumn}}*/
-
         $block = $this->getLayout()->getBlock('grid.bottom.links');
         if ($block) {
             $this->setChild('grid.bottom.links', $block);
@@ -192,7 +190,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         return parent::_prepareColumns();
     }
 
-     /**
+    /**
      * @return $this
      */
     protected function _prepareMassaction()
@@ -208,6 +206,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
                 'confirm' => __('Are you sure?')
             )
         );
+
         return $this;
     }
 

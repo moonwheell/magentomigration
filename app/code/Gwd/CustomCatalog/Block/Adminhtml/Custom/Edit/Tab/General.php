@@ -1,5 +1,7 @@
 <?php
+
 namespace Gwd\CustomCatalog\Block\Adminhtml\Custom\Edit\Tab;
+
 class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Magento\Backend\Block\Widget\Tab\TabInterface
 {
     /**
@@ -20,24 +22,25 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
         \Magento\Framework\Data\FormFactory $formFactory,
         \Magento\Store\Model\System\Store $systemStore,
         array $data = array()
-    ) {
+    )
+    {
         $this->_systemStore = $systemStore;
         parent::__construct($context, $registry, $formFactory, $data);
     }
 
     /**
-     * Prepare form
+     * Preparing grid edit tabs
      *
      * @return $this
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
     protected function _prepareForm()
     {
-		/* @var $model \Magento\Cms\Model\Page */
+        /* @var $model \Magento\Cms\Model\Page */
         $model = $this->_coreRegistry->registry('customcatalog_custom');
-		$isElementDisabled = false;
+        $isElementDisabled = false;
         /** @var \Magento\Framework\Data\Form $form */
         $form = $this->_formFactory->create();
-
         $form->setHtmlIdPrefix('page_');
 
         $fieldset = $form->addFieldset('base_fieldset', array('legend' => __('General')));
@@ -45,15 +48,13 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
         if ($model->getId()) {
             $fieldset->addField('id', 'hidden', array('name' => 'id'));
         }
-
-		$fieldset->addField(
+        $fieldset->addField(
             'copywriteinfo',
             'text',
             array(
                 'name' => 'copywriteinfo',
                 'label' => __('copywriteinfo'),
                 'title' => __('copywriteinfo'),
-                /*'required' => true,*/
             )
         );
 
@@ -64,7 +65,6 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
                 'name' => 'vpn',
                 'label' => __('vpn'),
                 'title' => __('vpn'),
-                /*'required' => true,*/
             )
         );
 
@@ -75,22 +75,16 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
                 'name' => 'sku',
                 'label' => __('sku'),
                 'title' => __('sku'),
-                /*'required' => true,*/
             )
         );
 
-		/*{{CedAddFormField}}*/
-        
         if (!$model->getId()) {
             $model->setData('status', $isElementDisabled ? '2' : '1');
         }
-
         $form->setValues($model->getData());
-
-
         $this->setForm($form);
 
-        return parent::_prepareForm();   
+        return parent::_prepareForm();
     }
 
     /**

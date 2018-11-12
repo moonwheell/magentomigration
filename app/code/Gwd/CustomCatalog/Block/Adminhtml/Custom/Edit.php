@@ -1,17 +1,12 @@
 <?php
+
 namespace Gwd\CustomCatalog\Block\Adminhtml\Custom;
 
-/**
- * CMS block edit form container
- */
 class Edit extends \Magento\Backend\Block\Widget\Form\Container
 {
     protected function _construct()
     {
-
-
-
-		$this->_objectId = 'id';
+        $this->_objectId = 'id';
         $this->_blockGroup = 'Gwd_CustomCatalog';
         $this->_controller = 'adminhtml_custom';
 
@@ -53,6 +48,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
         if ($this->_coreRegistry->registry('checkmodule_checkmodel')->getId()) {
             return __("Edit Item '%1'", $this->escapeHtml($this->_coreRegistry->registry('checkmodule_checkmodel')->getTitle()));
         } else {
+
             return __('New Item');
         }
     }

@@ -1,5 +1,7 @@
 <?php
+
 namespace Gwd\CustomCatalog\Block\Adminhtml\Custom\Edit;
+
 class Form extends \Magento\Backend\Block\Widget\Form\Generic
 {
     /**
@@ -9,6 +11,12 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
      */
     protected $_customerAccountService;
 
+    /**
+     * Preparing grid edit form
+     *
+     * @return $this
+     * @throws \Magento\Framework\Exception\LocalizedException
+     */
     protected function _prepareForm()
     {
         /** @var \Magento\Framework\Data\Form $form */
@@ -24,6 +32,7 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
         );
         $form->setUseContainer(true);
         $this->setForm($form);
+
         return parent::_prepareForm();
     }
 }

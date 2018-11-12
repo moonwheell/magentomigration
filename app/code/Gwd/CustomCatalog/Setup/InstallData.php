@@ -1,6 +1,7 @@
 <?php
 
 namespace Gwd\CustomCatalog\Setup;
+
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
@@ -10,21 +11,41 @@ use Magento\Eav\Model\Entity\Attribute\SetFactory as AttributeSetFactory;
 
 class InstallData implements InstallDataInterface
 {
+    /**
+     * @var EavSetupFactory
+     */
     private $eavSetupFactory;
+
+    /**
+     * @var AttributeSetFactory
+     */
     private $attributeSetFactory;
+
+    /**
+     * @var CategorySetupFactory
+     */
     private $categorySetupFactory;
 
-    public function __construct(EavSetupFactory $eavSetupFactory, AttributeSetFactory $attributeSetFactory, CategorySetupFactory $categorySetupFactory )
+    /**
+     * InstallData constructor.
+     * @param EavSetupFactory $eavSetupFactory
+     * @param AttributeSetFactory $attributeSetFactory
+     * @param CategorySetupFactory $categorySetupFactory
+     */
+    public function __construct(EavSetupFactory $eavSetupFactory, AttributeSetFactory $attributeSetFactory, CategorySetupFactory $categorySetupFactory)
     {
         $this->eavSetupFactory = $eavSetupFactory;
         $this->attributeSetFactory = $attributeSetFactory;
         $this->categorySetupFactory = $categorySetupFactory;
     }
 
+    /**
+     * @param ModuleDataSetupInterface $setup
+     * @param ModuleContextInterface $context
+     */
     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
         $setup->startSetup();
-
 
         $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
         $eavSetup->addAttribute(
@@ -35,7 +56,7 @@ class InstallData implements InstallDataInterface
                 'label' => 'VPN',
                 'backend' => '',
                 'input' => 'text',
-                'wysiwyg_enabled'   => false,
+                'wysiwyg_enabled' => false,
                 'source' => '',
                 'required' => false,
                 'sort_order' => 5,
@@ -54,7 +75,7 @@ class InstallData implements InstallDataInterface
                 'label' => 'CopyWriteInfo',
                 'backend' => '',
                 'input' => 'text',
-                'wysiwyg_enabled'   => false,
+                'wysiwyg_enabled' => false,
                 'source' => '',
                 'required' => false,
                 'sort_order' => 5,
@@ -64,7 +85,6 @@ class InstallData implements InstallDataInterface
                 'attribute_set' => 'Default',
             ]
         );
-
         $setup->endSetup();
     }
 }

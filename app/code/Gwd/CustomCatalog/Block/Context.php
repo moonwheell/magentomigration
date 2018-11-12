@@ -1,8 +1,5 @@
 <?php
-/**
- * Copyright © 2015 Gwd . All rights reserved.
- * 
- */
+
 namespace Gwd\CustomCatalog\Block;
 
 /**
@@ -20,26 +17,24 @@ class Context extends \Magento\Framework\View\Element\Template\Context
      * @var \Magento\Framework\Registry
      */
     protected $registry;
-	
-	/**
+
+    /**
      * @var \Gwd\CustomCatalog\Model\Config
      */
     protected $_config;
-	
-	/**
+
+    /**
      * @var \Magento\Framework\ObjectManagerInterface
      */
     protected $_objectManager;
-	
-	/**
+
+    /**
      * @var \Magento\Framework\UrlFactory
      */
     protected $_urlFactory;
-	
-	
 
     /**
-	 * @param \Magento\Framework\App\RequestInterface $request
+     * @param \Magento\Framework\App\RequestInterface $request
      * @param \Magento\Framework\View\LayoutInterface $layout
      * @param \Magento\Framework\Event\ManagerInterface $eventManager
      * @param \Magento\Framework\UrlInterface $urlBuilder
@@ -66,13 +61,13 @@ class Context extends \Magento\Framework\View\Element\Template\Context
      * @param \Magento\Framework\View\Element\Template\File\Validator $validator
      * @param \Gwd\CustomCatalog\Helper\Data $devToolHelper
      * @param \Magento\Framework\Registry $registry
-	 * @param \Gwd\CustomCatalog\Model\Config $config
-	 * @param \Magento\Framework\ObjectManagerInterface
-	 * @param \Magento\Framework\UrlFactory
+     * @param \Gwd\CustomCatalog\Model\Config $config
+     * @param \Magento\Framework\ObjectManagerInterface
+     * @param \Magento\Framework\UrlFactory
      * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      */
     public function __construct(
-		\Magento\Framework\App\RequestInterface $request,
+        \Magento\Framework\App\RequestInterface $request,
         \Magento\Framework\View\LayoutInterface $layout,
         \Magento\Framework\Event\ManagerInterface $eventManager,
         \Magento\Framework\UrlInterface $urlBuilder,
@@ -99,16 +94,17 @@ class Context extends \Magento\Framework\View\Element\Template\Context
         \Magento\Framework\View\Element\Template\File\Validator $validator,
         \Gwd\CustomCatalog\Helper\Data $devToolHelper,
         \Magento\Framework\Registry $registry,
-		\Gwd\CustomCatalog\Model\Config $config,
-		\Magento\Framework\ObjectManagerInterface $objectManager,
-		\Magento\Framework\UrlFactory $urlFactory
-    ) {
+        \Gwd\CustomCatalog\Model\Config $config,
+        \Magento\Framework\ObjectManagerInterface $objectManager,
+        \Magento\Framework\UrlFactory $urlFactory
+    )
+    {
         $this->_devToolHelper = $devToolHelper;
         $this->registry = $registry;
-		$this->_config = $config;
-		$this->_objectManager=$objectManager;
-		$this->_urlFactory=$urlFactory;
-       parent::__construct(
+        $this->_config = $config;
+        $this->_objectManager = $objectManager;
+        $this->_urlFactory = $urlFactory;
+        parent::__construct(
             $request,
             $layout,
             $eventManager,
@@ -138,7 +134,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
     }
 
     /**
-	 * Function for getting developer helper object
+     * Function for getting developer helper object
      * @return \Gwd\CustomCatalog\Helper\Data
      */
     public function getCustomCatalogHelper()
@@ -148,36 +144,39 @@ class Context extends \Magento\Framework\View\Element\Template\Context
 
 
     /**
-	 * Function for getting registry object
+     * Function for getting registry object
      * @return \Magento\Framework\Registry
      */
     public function getRegistry()
     {
         return $this->registry;
     }
-	
-	/**
-	 * Function for getting customcatalog model config object 
+
+    /**
+     * Function for getting customcatalog model config object
      * @return \Gwd\CustomCatalog\Model\Config
      */
-	public function getConfig(){
-		return $this->_config;
-	}
-	
-	/**
-	 * Function for getting object manager object 
+    public function getConfig()
+    {
+        return $this->_config;
+    }
+
+    /**
+     * Function for getting object manager object
      * @return \Magento\Framework\ObjectManagerInterface
      */
-	public function getObjectManager(){
-		return $this->_objectManager;
-	}
-	
-	/**
-	 * Function for getting UrlFactory object 
+    public function getObjectManager()
+    {
+        return $this->_objectManager;
+    }
+
+    /**
+     * Function for getting UrlFactory object
      * @return \Magento\Framework\UrlFactory
      */
-	public function getUrlFactory(){
-		return $this->_urlFactory;
-	}
+    public function getUrlFactory()
+    {
+        return $this->_urlFactory;
+    }
 
 }

@@ -1,14 +1,13 @@
 <?php
+
 namespace Gwd\CustomCatalog\Api;
 
 interface CustomCatalogApiInterface
 {
     /**
-     * Returns greeting message to user
+     * Get products by VPN
      *
-     * @api
-     * @param string $vpn.
-     * @return string Greeting message with users name.
+     * @param string $vpn
      */
     public function getByVPN($vpn);
 

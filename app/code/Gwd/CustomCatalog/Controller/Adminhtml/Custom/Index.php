@@ -1,10 +1,10 @@
 <?php
+
 namespace Gwd\CustomCatalog\Controller\Adminhtml\Custom;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
-
 
 class Index extends Action
 {
@@ -31,12 +31,14 @@ class Index extends Action
         $this->resultPageFactory = $resultPageFactory;
     }
 
+    /**
+     * @return \Magento\Backend\Model\View\Result\Page|\Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface|\Magento\Framework\View\Result\Page
+     */
     public function execute()
     {
-		
-		$this->resultPage = $this->resultPageFactory->create();  
-		$this->resultPage->setActiveMenu('Gwd_Custom::custom');
-		$this->resultPage ->getConfig()->getTitle()->set((__('Custom')));
-		return $this->resultPage;
+        $this->resultPage = $this->resultPageFactory->create();
+        $this->resultPage->setActiveMenu('Gwd_Custom::custom');
+        $this->resultPage->getConfig()->getTitle()->set((__('Custom')));
+        return $this->resultPage;
     }
 }
