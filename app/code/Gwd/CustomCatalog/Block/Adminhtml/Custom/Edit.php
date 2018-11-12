@@ -4,6 +4,7 @@ namespace Gwd\CustomCatalog\Block\Adminhtml\Custom;
 
 class Edit extends \Magento\Backend\Block\Widget\Form\Container
 {
+
     protected function _construct()
     {
         $this->_objectId = 'id';

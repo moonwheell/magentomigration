@@ -45,12 +45,18 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected $_websiteFactory;
 
     /**
+     * @var \Psr\Log\LoggerInterface
+     */
+    protected $_logger;
+
+    /**
      * Grid constructor.
      * @param \Magento\Backend\Block\Template\Context $context
      * @param \Magento\Backend\Helper\Data $backendHelper
      * @param \Magento\Store\Model\WebsiteFactory $websiteFactory
      * @param \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory
      * @param \Magento\Framework\Module\Manager $moduleManager
+     * @param \Psr\Log\LoggerInterface $logger
      * @param array $data
      */
     public function __construct(
@@ -59,12 +65,14 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         \Magento\Store\Model\WebsiteFactory $websiteFactory,
         \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory,
         \Magento\Framework\Module\Manager $moduleManager,
+        \Psr\Log\LoggerInterface $logger,
         array $data = []
     )
     {
         $this->_collectionFactory = $collectionFactory;
         $this->_websiteFactory = $websiteFactory;
         $this->moduleManager = $moduleManager;
+        $this->_logger = $logger;
         parent::__construct($context, $backendHelper, $data);
     }
 
@@ -102,6 +110,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 
             $collection = $this->_collectionFactory->create()->load();
             $collection->addAttributeToSelect('*');
+            $collection->addAttributeToSelect('copywriteinfo');
             $collection->addAttributeToSelect('vpn');
             $collection->addAttributeToSelect('sku');
             $this->setCollection($collection);
@@ -109,10 +118,8 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
             parent::_prepareCollection();
 
             return $this;
-
         } catch (Exception $e) {
-            echo $e->getMessage();
-            die;
+            $this->_logger->addError('Grid Error');
         }
     }
 

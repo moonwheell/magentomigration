@@ -5,7 +5,7 @@ namespace Gwd\CustomCatalog\Controller\Adminhtml\Custom;
 class Save extends \Magento\Backend\App\Action
 {
     /**
-     * @var \Magento\Framework\View\Result\PageFactory
+     * @return \Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface|void
      */
     public function execute()
     {
@@ -23,7 +23,7 @@ class Save extends \Magento\Backend\App\Action
 
             try {
                 $model->save();
-                $this->messageManager->addSuccess(__('The Frist Grid Has been Saved.'));
+                $this->messageManager->addSuccess(__('The product has been Saved.'));
                 $this->_objectManager->get('Magento\Backend\Model\Session')->setFormData(false);
                 if ($this->getRequest()->getParam('back')) {
                     $this->_redirect('*/*/edit', array('id' => $model->getId(), '_current' => true));
@@ -38,7 +38,7 @@ class Save extends \Magento\Backend\App\Action
             } catch (\RuntimeException $e) {
                 $this->messageManager->addError($e->getMessage());
             } catch (\Exception $e) {
-                $this->messageManager->addException($e, __('Something went wrong while saving the banner.'));
+                $this->messageManager->addException($e, __('Something went wrong while saving the product.'));
             }
 
             $this->_getSession()->setFormData($data);

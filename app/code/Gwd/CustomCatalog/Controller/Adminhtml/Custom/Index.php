@@ -39,7 +39,7 @@ class Index extends Action
     {
         $this->resultPage = $this->resultPageFactory->create();
         $this->resultPage->setActiveMenu('Gwd_Custom::custom');
-        $this->resultPage->getConfig()->getTitle()->set((__('Custom')));
+        $this->resultPage->getConfig()->getTitle()->set((__('Products list')));
         return $this->resultPage;
     }
 }

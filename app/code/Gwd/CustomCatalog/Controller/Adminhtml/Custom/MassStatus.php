@@ -5,7 +5,7 @@ namespace Gwd\Custom\Controller\Adminhtml\Custom;
 class MassStatus extends \Magento\Backend\App\Action
 {
     /**
-     * @var \Magento\Framework\View\Result\PageFactory
+     * @return \Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface|void
      */
     public function execute()
     {

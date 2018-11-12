@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
     <menu>
         <add id="Gwd_CustomCatalog::gwd_custom_index" title="CustomCatalog" module="Gwd_CustomCatalog"
-             sortOrder="20" dependsOnModule="Gwd_CustomCatalog" action="customcatalog/custom/index"
+             sortOrder="9999" parent="Magento_Catalog::inventory" action="customcatalog/custom/index"
              resource="Gwd_CustomCatalog::gwd_custom_index"/>
     </menu>
 </config>

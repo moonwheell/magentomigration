@@ -54,7 +54,7 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
             'text',
             array(
                 'name' => 'copywriteinfo',
-                'label' => __('copywriteinfo'),
+                'label' => __('CopyWriteInfo'),
                 'title' => __('copywriteinfo'),
             )
         );
@@ -64,7 +64,7 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
             'text',
             array(
                 'name' => 'vpn',
-                'label' => __('vpn'),
+                'label' => __('VPN'),
                 'title' => __('vpn'),
             )
         );
@@ -74,7 +74,7 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
             'text',
             array(
                 'name' => 'sku',
-                'label' => __('sku'),
+                'label' => __('SKU'),
                 'title' => __('sku'),
             )
         );

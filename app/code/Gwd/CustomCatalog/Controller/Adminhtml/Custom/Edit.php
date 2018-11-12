@@ -5,7 +5,7 @@ namespace Gwd\CustomCatalog\Controller\Adminhtml\Custom;
 class Edit extends \Magento\Backend\App\Action
 {
     /**
-     * @var \Magento\Framework\View\Result\PageFactory
+     * @return \Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface|void
      */
     public function execute()
     {

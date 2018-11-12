@@ -27,7 +27,8 @@ class InstallData implements InstallDataInterface
     private $categorySetupFactory;
 
     /**
-     * InstallData constructor.
+     * InstallData constructor
+     *
      * @param EavSetupFactory $eavSetupFactory
      * @param AttributeSetFactory $attributeSetFactory
      * @param CategorySetupFactory $categorySetupFactory

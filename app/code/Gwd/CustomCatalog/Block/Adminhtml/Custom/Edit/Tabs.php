@@ -14,6 +14,6 @@ class Tabs extends \Magento\Backend\Block\Widget\Tabs
         parent::_construct();
         $this->setId('checkmodule_custom_tabs');
         $this->setDestElementId('edit_form');
-        $this->setTitle(__('Custom Information'));
+        $this->setTitle(__('Product Information'));
     }
 }
