@@ -14,27 +14,17 @@ class CustomCatalogApi implements CustomCatalogApiInterface
 
         $productCollection = $objectManager->create('Magento\Catalog\Model\ResourceModel\Product\CollectionFactory');
 
+
         $collection = $productCollection->create()
             ->addAttributeToSelect('*')
-//            ->addFieldToFilter("vpn", array("eq" => "$vpn"))
+            ->addFieldToFilter("vpn", array("eq" => "$vpn"))
             ->load() ;
 
         $result = [];
-//        echo '<pre>';
-//        var_dump($collection);
-//        echo '</pre>';
-//        die;
-
-
 
         foreach($collection as $attributes)
         {
             $result[] = $attributes->getData('vpn');
-            echo '<pre>';
-            var_dump($attributes);
-            echo '</pre>';
-            die;
-
         }
 
         return json_encode($result);

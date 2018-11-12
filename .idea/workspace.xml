@@ -3,50 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fe2743c-d82d-440c-a965-76cd323332f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Api/CustomCatalogApiInterface.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Api/CustomCatalogApiInterface.php" />
-      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
       <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php" />
-      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php" />
-      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/di.xml" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/di.xml" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Dotdigitalgroup/Email/Model/ImporterFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Controller/Adminhtml/Product/Attribute/Index/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Setup/CategorySetupFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Directory/Model/AllowedCountries/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Setup/EavSetupFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Api/AttributeInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/PageCache/Observer/FlushFormKey/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtension.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtensionInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/AddressExtensionInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/RateResult/ErrorFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/RateResult/MethodFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/Quote/Address/Total/CollectorFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ShippingAssignmentFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Model/ShippingFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Review/Model/Rating/Option/VoteFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Review/Model/RatingFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Config/Reader/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/CouponFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/ResourceModel/Coupon/UsageFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/ResourceModel/Rule/CollectionFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/SalesRule/Model/Rule/CustomerFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Shipping/Model/Rate/ResultFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Shipping/Model/Tracking/Result/StatusFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Sales/Total/Quote/Subtotal/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Tax/Model/Sales/Total/Quote/Tax/Interceptor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Magento/User/Model/UserFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/Checkout/AddressInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/CollectionPointSearchResultInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/QuoteCollectionPointInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/SearchRequestInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/Order/ShippingExperienceInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Attribute/CheckoutFieldInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Schema/CheckoutFieldFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/ResourceModel/Repository/OrderRepositoryInterface/Proxy.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Rest/Request/AuthRequestInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Webservice/HttpClientInterfaceFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pub/static/deployed_version.txt" afterPath="$PROJECT_DIR$/pub/static/deployed_version.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,91 +18,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="177" column="35" lean-forward="false" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webapi.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/webapi.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="di.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/di.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductScopeRewriteGeneratorTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Test/Unit/Model/ProductScopeRewriteGeneratorTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CustomCatalogApi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractCollection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/AbstractCollection.php">
+      <file leaf-file-name="InstallData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="-345">
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding>
+                <element signature="e#42#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interceptor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2070">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductScopeRewriteGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/Model/ProductScopeRewriteGenerator.php">
+      <file leaf-file-name="CategoryProduct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/CategoryProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="69" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomCatalogApiInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Api/CustomCatalogApiInterface.php">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="-3555">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attribute.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Attribute.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-720">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/ObjectManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -154,8 +113,8 @@
       <file leaf-file-name="Save.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="46" />
+            <state relative-caret-position="705">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -558,10 +517,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="227" />
-    <option name="width" value="1677" />
-    <option name="height" value="713" />
+    <option name="x" value="90" />
+    <option name="y" value="305" />
+    <option name="width" value="1675" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -721,92 +680,75 @@
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Setup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Setup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FixtureGenerator" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ResourceModel" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ResourceModel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Product" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ResourceModel" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
@@ -952,7 +894,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
-    <property name="SearchEverywhereHistoryKey" value="AnchorUrlRewriteGenerator&#9;null&#9;null&#10;Magento\Framework\Event\Manager&#9;null&#9;null&#10;Magento\CmsUrlRewrite\Observer\ProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php&#10;Magento\Catalog\Model\Product&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Observer\ProductProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Mod&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/CatalogUrlRewrite/Model&#10;\Magento\UrlRewrite\Service\V1\Data\UrlRewrite&#9;null&#9;null&#10;\Magento\Catalog\Model\Product\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/Product/ProductList&#10;module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#10;module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#10;magento/framework/DB/Statement/Pdo/Mysql.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/DB/Statement/Pdo/Mysql.php&#10;\Magento\Catalog\Model\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;\Magento\Backend\Block\Widget\Grid\Container&#9;null&#9;null&#10;/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;html/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd\CustomCatalog\Model\Config\Source\Options&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;app/code/Magento/CatalogInventoryConfigurableProduct/Plugin/GetInStockAttributeOptionsPlugin.php#L54-L54&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;Magento\Catalog\Model\Product\Interceptor&#9;null&#9;null&#10;/var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory&#9;null&#9;null&#10;Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection&#9;null&#9;null&#10;\Magento\Framework\Model\ResourceModel\Db\AbstractDb&#9;null&#9;null&#10;Webspeaks\ProductsGrid\Model\ResourceModel\Contact\Grid\Collection&#9;FILE&#9;file:///var/www/magento2/magestudy/html/app/code/Webspeaks/ProductsGrid/Model/ResourceModel/Contact/Grid/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory.&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Data/Collection/EntityFactory.php&#10;vendor\magento\module-backend\Model\View\Layout&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-backend/Model/View/Layout&#10;Data\Collection\EntityFactoryInterface&#9;null&#9;null&#10;magento/framework/View/Result/Page.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/View/Result/Page.php&#10;study/html/vendor/magento/framework/View/Result/Page.php&#9;null&#9;null&#10;module-developer/Model/View/Page/Config/RendererFactory.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;vendor/magento/module-config/App/Config/Type/System&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-config/App/Config/Type/System.php&#10;Magento\Framework\Code\Reader\ClassReader&#9;null&#9;null&#10;vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd/CustomCatalog/Model/Config/Source/Options&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensionAttributesInterface&#9;null&#9;null&#10;Magento\Checkout\Api\Data\ShippingInformationInterface&#9;null&#9;null&#10;\Magento\Framework\App\ObjectManager&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensibleDataInterface&#9;null&#9;null&#10;Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;Magento\Catalog\Api\Data\ProductInterface&#9;null&#9;null&#10;\Magento\Eav\Api\Data\AttributeSetInterface&#9;null&#9;null&#10;Magento\Sales\Api\Data\OrderInterface&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\CollectionFactory&#9;null&#9;null&#10;CustomAttributesDataInterface&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Magento\Catalog\Model\ResourceModel\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/Catalog/Model/ResourceModel&#10;AnchorUrlRewriteGenerator&#9;null&#9;null&#10;Magento\Framework\Event\Manager&#9;null&#9;null&#10;Magento\CmsUrlRewrite\Observer\ProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php&#10;Magento\Catalog\Model\Product&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Observer\ProductProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Mod&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/CatalogUrlRewrite/Model&#10;\Magento\UrlRewrite\Service\V1\Data\UrlRewrite&#9;null&#9;null&#10;\Magento\Catalog\Model\Product\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/Product/ProductList&#10;module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#10;module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#10;magento/framework/DB/Statement/Pdo/Mysql.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/DB/Statement/Pdo/Mysql.php&#10;\Magento\Catalog\Model\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;\Magento\Backend\Block\Widget\Grid\Container&#9;null&#9;null&#10;/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;html/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd\CustomCatalog\Model\Config\Source\Options&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;app/code/Magento/CatalogInventoryConfigurableProduct/Plugin/GetInStockAttributeOptionsPlugin.php#L54-L54&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;Magento\Catalog\Model\Product\Interceptor&#9;null&#9;null&#10;/var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory&#9;null&#9;null&#10;Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection&#9;null&#9;null&#10;\Magento\Framework\Model\ResourceModel\Db\AbstractDb&#9;null&#9;null&#10;Webspeaks\ProductsGrid\Model\ResourceModel\Contact\Grid\Collection&#9;FILE&#9;file:///var/www/magento2/magestudy/html/app/code/Webspeaks/ProductsGrid/Model/ResourceModel/Contact/Grid/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory.&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Data/Collection/EntityFactory.php&#10;vendor\magento\module-backend\Model\View\Layout&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-backend/Model/View/Layout&#10;Data\Collection\EntityFactoryInterface&#9;null&#9;null&#10;magento/framework/View/Result/Page.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/View/Result/Page.php&#10;study/html/vendor/magento/framework/View/Result/Page.php&#9;null&#9;null&#10;module-developer/Model/View/Page/Config/RendererFactory.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;vendor/magento/module-config/App/Config/Type/System&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-config/App/Config/Type/System.php&#10;Magento\Framework\Code\Reader\ClassReader&#9;null&#9;null&#10;vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd/CustomCatalog/Model/Config/Source/Options&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensionAttributesInterface&#9;null&#9;null&#10;Magento\Checkout\Api\Data\ShippingInformationInterface&#9;null&#9;null&#10;\Magento\Framework\App\ObjectManager&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensibleDataInterface&#9;null&#9;null&#10;Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;Magento\Catalog\Api\Data\ProductInterface&#9;null&#9;null&#10;\Magento\Eav\Api\Data\AttributeSetInterface&#9;null&#9;null&#10;Magento\Sales\Api\Data\OrderInterface&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\CollectionFactory&#9;null&#9;null" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -1059,7 +1001,7 @@
       <workItem from="1541683440644" duration="2046000" />
       <workItem from="1541750459628" duration="26177000" />
       <workItem from="1541853585255" duration="13887000" />
-      <workItem from="1542008798335" duration="163000" />
+      <workItem from="1542008798335" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1541406345572</created>
@@ -1072,7 +1014,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391540000" />
+    <option name="totallyTimeSpent" value="393385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,13 +1026,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="227" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.49585405" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36451614" sideWeight="0.5389718" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47311828" sideWeight="0.34715313" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3548387" sideWeight="0.4223328" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3548387" sideWeight="0.4223328" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27971256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1268,57 +1211,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="965" column="9" lean-forward="false" selection-start-line="965" selection-start-column="9" selection-end-line="965" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/log/system.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit/Interceptor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#250#286#0#PHP" expanded="false" />
-            <marker date="1541761060631" expanded="true" signature="448:494" ph="..." />
-            <marker date="1541761060631" expanded="true" signature="495:754" ph="..." />
-            <marker date="1541761060631" expanded="false" signature="513:561" ph="..." />
-            <marker date="1541761060631" expanded="true" signature="562:717" ph="..." />
-            <marker date="1541761060631" expanded="false" signature="583:677" ph="..." />
-            <marker date="1541761060631" expanded="true" signature="678:706" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/CollectionFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1337,6 +1229,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="994" column="28" lean-forward="false" selection-start-line="994" selection-start-column="28" selection-end-line="994" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,6 +1237,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="685" column="20" lean-forward="false" selection-start-line="685" selection-start-column="20" selection-end-line="685" selection-end-column="20" />
+          <folding>
+            <marker date="1536069034000" expanded="true" signature="16424:16536" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,13 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1509,6 +1398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="765" column="20" lean-forward="false" selection-start-line="765" selection-start-column="20" selection-end-line="765" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1523,6 +1413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="436" column="20" lean-forward="false" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,13 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1619,18 +1503,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/ObjectManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/CategoryProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3555">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Attribute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Setup/InstallData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#42#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="705">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="62" />
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
