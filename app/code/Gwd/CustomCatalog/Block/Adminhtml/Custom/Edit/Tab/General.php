@@ -32,6 +32,7 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
      * Preparing grid edit tabs
      *
      * @return $this
+     *
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     protected function _prepareForm()
@@ -116,7 +117,7 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
     }
 
     /**
-     * {@inheritdoc}
+     * @return bool
      */
     public function isHidden()
     {
@@ -127,6 +128,7 @@ class General extends \Magento\Backend\Block\Widget\Form\Generic implements \Mag
      * Check permission for passed action
      *
      * @param string $resourceId
+     *
      * @return bool
      */
     protected function _isAllowedAction($resourceId)

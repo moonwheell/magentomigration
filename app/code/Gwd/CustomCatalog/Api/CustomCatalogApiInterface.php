@@ -8,6 +8,8 @@ interface CustomCatalogApiInterface
      * Get products by VPN
      *
      * @param string $vpn
+     *
+     * @return string
      */
     public function getByVPN($vpn);
 

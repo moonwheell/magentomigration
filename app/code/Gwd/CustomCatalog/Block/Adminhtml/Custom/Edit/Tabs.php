@@ -6,6 +6,8 @@ class Tabs extends \Magento\Backend\Block\Widget\Tabs
 {
     /**
      * Setting data to edit page
+     *
+     * @return void
      */
     protected function _construct()
     {

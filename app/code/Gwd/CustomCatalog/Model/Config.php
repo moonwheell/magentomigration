@@ -34,12 +34,15 @@ class Config extends \Magento\Framework\DataObject
     protected $_storeCode;
 
     /**
-     * @param \Magento\Store\Model\StoreManagerInterface $storeManager ,
-     * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig ,
-     * @param \Magento\Framework\App\Config\ValueInterface $backendModel ,
-     * @param \Magento\Framework\DB\Transaction $transaction ,
-     * @param \Magento\Framework\App\Config\ValueFactory $configValueFactory ,
+     * Config constructor.
+     * @param \Magento\Store\Model\StoreManagerInterface $storeManager
+     * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
+     * @param \Magento\Framework\App\Config\ValueInterface $backendModel
+     * @param \Magento\Framework\DB\Transaction $transaction
+     * @param \Magento\Framework\App\Config\ValueFactory $configValueFactory
      * @param array $data
+     *
+     * @throws \Magento\Framework\Exception\NoSuchEntityException
      */
     public function __construct(
         \Magento\Store\Model\StoreManagerInterface $storeManager,
@@ -61,8 +64,9 @@ class Config extends \Magento\Framework\DataObject
     }
 
     /**
-     * Function for getting Config value of current store
-     * @param string $path ,
+     * @param $path
+     *
+     * @return mixed
      */
     public function getCurrentStoreConfigValue($path)
     {
@@ -70,9 +74,11 @@ class Config extends \Magento\Framework\DataObject
     }
 
     /**
-     * Function for setting Config value of current store
-     * @param string $path ,
-     * @param string $value ,
+     * @param $path
+     *
+     * @param $value
+     *
+     * @throws \Exception
      */
     public function setCurrentStoreConfigValue($path, $value)
     {

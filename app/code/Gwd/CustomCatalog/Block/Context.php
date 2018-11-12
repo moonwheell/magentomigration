@@ -34,6 +34,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
     protected $_urlFactory;
 
     /**
+     * Context constructor.
      * @param \Magento\Framework\App\RequestInterface $request
      * @param \Magento\Framework\View\LayoutInterface $layout
      * @param \Magento\Framework\Event\ManagerInterface $eventManager
@@ -62,9 +63,8 @@ class Context extends \Magento\Framework\View\Element\Template\Context
      * @param \Gwd\CustomCatalog\Helper\Data $devToolHelper
      * @param \Magento\Framework\Registry $registry
      * @param \Gwd\CustomCatalog\Model\Config $config
-     * @param \Magento\Framework\ObjectManagerInterface
-     * @param \Magento\Framework\UrlFactory
-     * @SuppressWarnings(PHPMD.ExcessiveParameterList)
+     * @param \Magento\Framework\ObjectManagerInterface $objectManager
+     * @param \Magento\Framework\UrlFactory $urlFactory
      */
     public function __construct(
         \Magento\Framework\App\RequestInterface $request,
@@ -135,6 +135,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
 
     /**
      * Function for getting developer helper object
+     *
      * @return \Gwd\CustomCatalog\Helper\Data
      */
     public function getCustomCatalogHelper()
@@ -145,6 +146,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
 
     /**
      * Function for getting registry object
+     *
      * @return \Magento\Framework\Registry
      */
     public function getRegistry()
@@ -154,6 +156,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
 
     /**
      * Function for getting customcatalog model config object
+     *
      * @return \Gwd\CustomCatalog\Model\Config
      */
     public function getConfig()
@@ -163,6 +166,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
 
     /**
      * Function for getting object manager object
+     *
      * @return \Magento\Framework\ObjectManagerInterface
      */
     public function getObjectManager()
@@ -172,6 +176,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
 
     /**
      * Function for getting UrlFactory object
+     *
      * @return \Magento\Framework\UrlFactory
      */
     public function getUrlFactory()

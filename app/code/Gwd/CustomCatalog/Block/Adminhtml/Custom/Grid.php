@@ -45,17 +45,13 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected $_websiteFactory;
 
     /**
+     * Grid constructor.
      * @param \Magento\Backend\Block\Template\Context $context
      * @param \Magento\Backend\Helper\Data $backendHelper
      * @param \Magento\Store\Model\WebsiteFactory $websiteFactory
-     * @param \Magento\Eav\Model\ResourceModel\Entity\Attribute\Set\CollectionFactory $setsFactory
-     * @param \Magento\Catalog\Model\ProductFactory $productFactory
+     * @param \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory
      * @param \Magento\Framework\Module\Manager $moduleManager
      * @param array $data
-     * @param \Magento\Catalog\Model\ResourceModel\Product\Collection
-     *
-     *
-     * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      */
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
@@ -87,7 +83,9 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     }
 
     /**
-     * @return Store
+     * @return \Magento\Store\Api\Data\StoreInterface
+     *
+     * @throws \Magento\Framework\Exception\NoSuchEntityException
      */
     protected function _getStore()
     {
@@ -120,6 +118,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 
     /**
      * @param \Magento\Backend\Block\Widget\Grid\Column $column
+     *
      * @return $this
      */
     protected function _addColumnFilterToCollection($column)
@@ -142,7 +141,9 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 
     /**
      * @return $this
+     *
      * @throws \Exception
+     *
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     protected function _prepareColumns()
@@ -220,6 +221,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 
     /**
      * @param \Magento\Catalog\Model\Product|\Magento\Framework\Object $row
+     *
      * @return string
      */
     public function getRowUrl($row)

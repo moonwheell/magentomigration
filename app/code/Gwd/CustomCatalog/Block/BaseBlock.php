@@ -20,8 +20,9 @@ class BaseBlock extends \Magento\Framework\View\Element\Template
     protected $_config;
 
     /**
-     * @param \Gwd\CustomCatalog\Block\Context $context
-     * @param \Magento\Framework\UrlFactory $urlFactory
+     * BaseBlock constructor
+     *
+     * @param Context $context
      */
     public function __construct(\Gwd\CustomCatalog\Block\Context $context
     )
@@ -36,6 +37,7 @@ class BaseBlock extends \Magento\Framework\View\Element\Template
 
     /**
      * Function for getting event details
+     *
      * @return array
      */
     public function getEventDetails()
@@ -45,6 +47,7 @@ class BaseBlock extends \Magento\Framework\View\Element\Template
 
     /**
      * Function for getting current url
+     *
      * @return string
      */
     public function getCurrentUrl()
@@ -54,7 +57,9 @@ class BaseBlock extends \Magento\Framework\View\Element\Template
 
     /**
      * Function for getting controller url for given router path
+     *
      * @param string $routePath
+     *
      * @return string
      */
     public function getControllerUrl($routePath)
@@ -65,7 +70,9 @@ class BaseBlock extends \Magento\Framework\View\Element\Template
 
     /**
      * Function for getting current url
+     *
      * @param string $path
+     *
      * @return string
      */
     public function getConfigValue($path)
@@ -75,6 +82,7 @@ class BaseBlock extends \Magento\Framework\View\Element\Template
 
     /**
      * Function canShowCustomCatalog
+     *
      * @return bool
      */
     public function canShowCustomCatalog()

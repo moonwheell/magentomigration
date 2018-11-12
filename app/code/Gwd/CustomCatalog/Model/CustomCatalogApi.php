@@ -10,6 +10,7 @@ class CustomCatalogApi implements CustomCatalogApiInterface
      * Get product list with declared vpn
      *
      * @param string $vpn
+     *
      * @return string
      */
     public function getByVPN($vpn)
