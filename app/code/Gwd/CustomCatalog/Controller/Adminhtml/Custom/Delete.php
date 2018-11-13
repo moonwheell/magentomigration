@@ -11,8 +11,8 @@ class Delete extends \Magento\Backend\App\Action
     {
         $id = $this->getRequest()->getParam('id');
         try {
-            $banner = $this->_objectManager->get('\Magento\Catalog\Model\Product')->load($id);
-            $banner->delete();
+            $product = $this->_objectManager->get('\Magento\Catalog\Model\Product')->load($id);
+            $product->delete();
             $this->messageManager->addSuccess(
                 __('Delete successfully !')
             );

@@ -107,12 +107,8 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected function _prepareCollection()
     {
         try {
-
             $collection = $this->_collectionFactory->create()->load();
             $collection->addAttributeToSelect('*');
-            $collection->addAttributeToSelect('copywriteinfo');
-            $collection->addAttributeToSelect('vpn');
-            $collection->addAttributeToSelect('sku');
             $this->setCollection($collection);
 
             parent::_prepareCollection();
@@ -136,7 +132,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
                     'websites',
                     'catalog_product_website',
                     'website_id',
-                    'product_id=entity_id',
+                    'entity_id',
                     null,
                     'left'
                 );

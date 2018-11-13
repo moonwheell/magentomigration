@@ -10,6 +10,7 @@ class MassDelete extends \Magento\Backend\App\Action
     public function execute()
     {
         $ids = $this->getRequest()->getParam('id');
+
         if (!is_array($ids) || empty($ids)) {
             $this->messageManager->addError(__('Please select product(s).'));
         } else {

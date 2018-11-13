@@ -13,10 +13,9 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
 
         parent::_construct();
 
-        $this->buttonList->update('save', 'label', __('Save Block'));
-        $this->buttonList->update('delete', 'label', __('Delete Block'));
-
-        $this->buttonList->add(
+        $this->buttonList->update('save', 'label', __('Save Product'));
+        $this->buttonList->update('delete', 'label', __('Delete Product'));
+               $this->buttonList->add(
             'saveandcontinue',
             array(
                 'label' => __('Save and Continue Edit'),
@@ -30,7 +29,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
 
         $this->_formScripts[] = "
             function toggleEditor() {
-                if (tinyMCE.getInstanceById('block_content') == null) {
+                if (tinyMCE.getInstanceById('Product_content') == null) {
                     tinyMCE.execCommand('mceAddControl', false, 'hello_content');
                 } else {
                     tinyMCE.execCommand('mceRemoveControl', false, 'hello_content');
