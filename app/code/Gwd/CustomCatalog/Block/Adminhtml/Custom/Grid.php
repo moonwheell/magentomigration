@@ -199,6 +199,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      */
     protected function _prepareMassaction()
     {
+        $this->getMassactionBlock()->setUseSelectAll(false);
         $this->setMassactionIdField('id');
         $this->getMassactionBlock()->setFormFieldName('id');
 

@@ -2,6 +2,8 @@
 
 namespace Gwd\CustomCatalog\Controller\Adminhtml\Custom;
 
+use Magento\Backend\App\Action;
+
 class MassDelete extends \Magento\Backend\App\Action
 {
     /**
@@ -29,3 +31,17 @@ class MassDelete extends \Magento\Backend\App\Action
         $this->_redirect('*/*/');
     }
 }
+
+//$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+//$productCollection = $objectManager->create('Magento\Catalog\Model\ResourceModel\Product\CollectionFactory');
+//$collectionSize = $productCollection->getSize();
+//
+//try {
+//    foreach ($productCollection as $collection) {
+//        $collection->delete();
+//    }
+//} catch (\Exception $e) {
+//    $this->messageManager->addError($e->getMessage());
+//}
+//$this->messageManager->addSuccess(__('A total of %1 record(s) have been deleted.', $collectionSize));
+//$this->_redirect('*/*/');

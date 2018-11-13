@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php" />
       <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
-      <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php" />
       <change beforePath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php" afterPath="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,61 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MassDelete.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MassDelete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="690">
+              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteRow.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/EntityManager/Db/DeleteRow.php">
+      <file leaf-file-name="MassStatus.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassStatus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="405">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Product.php">
+      <file leaf-file-name="Edit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="353" column="23" lean-forward="false" selection-start-line="353" selection-start-column="13" selection-end-line="353" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/App/Action.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/App/AbstractAction.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4503">
-              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="393">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -84,8 +53,8 @@
       <file leaf-file-name="Grid.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="166" column="45" lean-forward="false" selection-start-line="166" selection-start-column="32" selection-end-line="166" selection-end-column="45" />
+            <state relative-caret-position="1665">
+              <caret line="201" column="27" lean-forward="true" selection-start-line="201" selection-start-column="27" selection-end-line="201" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -94,28 +63,60 @@
       <file leaf-file-name="Extended.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/Block/Widget/Grid/Extended.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="591" column="20" lean-forward="false" selection-start-line="591" selection-start-column="20" selection-end-line="591" selection-end-column="20" />
+            <state relative-caret-position="472">
+              <caret line="591" column="26" lean-forward="true" selection-start-line="591" selection-start-column="26" selection-end-line="591" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Custom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom.php">
+      <file leaf-file-name="AbstractBlock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/AbstractBlock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="475" column="20" lean-forward="false" selection-start-line="475" selection-start-column="20" selection-end-line="475" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Save.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomCatalogApi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="117" lean-forward="false" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#65#96#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/NewAction.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -125,10 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Magento\CatalogUrlRewrite\Model\Product\AnchorUrlRewriteGenerator</find>
-      <find>catalog_category_save_after</find>
-      <find>rew</find>
-      <find>process_url_rewrite_saving</find>
       <find>catalog_product_save_after</find>
       <find>$model</find>
       <find>$_product</find>
@@ -142,7 +139,6 @@
       <find>ion addAttributeToFilter(</find>
       <find>LocalizedException</find>
       <find>$type</find>
-      <find>$_objectManager</find>
       <find>$_customerAccountService</find>
       <find>throws</find>
       <find>Gwd\CustomCatalog\Block\BaseBlock</find>
@@ -154,7 +150,12 @@
       <find>block</find>
       <find>product_id</find>
       <find>entity_id</find>
+      <find>select all</find>
       <find>delete</find>
+      <find>$_objectManager</find>
+      <find>_prepareMassaction</find>
+      <find>MassDelete</find>
+      <find>Delete</find>
     </findStrings>
     <replaceStrings>
       <replace>entity_id</replace>
@@ -230,10 +231,10 @@
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tabs.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/BaseBlock.php" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php" />
-        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php" />
+        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php" />
+        <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php" />
         <option value="$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php" />
       </list>
@@ -519,10 +520,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="90" />
-    <option name="y" value="305" />
-    <option name="width" value="1675" />
-    <option name="height" value="705" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="928" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -830,6 +831,71 @@
               <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Url" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Url" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-url-rewrite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -879,7 +945,7 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../magento1/study/html" />
     <property name="SearchEverywhereHistoryKey" value="magento/framework/EntityManager/Db/DeleteRow.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/EntityManager/Db/DeleteRow.php&#10;/magento/framework/EntityManager/Db/DeleteRow.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/EntityManager/Db/DeleteRow.php&#10;Magento\Catalog\Model\ResourceModel\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/Catalog/Model/ResourceModel&#10;AnchorUrlRewriteGenerator&#9;null&#9;null&#10;Magento\Framework\Event\Manager&#9;null&#9;null&#10;Magento\CmsUrlRewrite\Observer\ProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Observer/ProductProcessUrlRewriteSavingObserver.php&#10;Magento\Catalog\Model\Product&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Observer\ProductProcessUrlRewriteSavingObserver&#9;null&#9;null&#10;Magento\CatalogUrlRewrite\Mod&#9;FILE&#9;file:///var/www/magento2/magestudy/html/generated/code/Magento/CatalogUrlRewrite/Model&#10;\Magento\UrlRewrite\Service\V1\Data\UrlRewrite&#9;null&#9;null&#10;\Magento\Catalog\Model\Product\&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/Product/ProductList&#10;module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/ProductUrlRewriteGenerator.php&#10;module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog-url-rewrite/Model/Product/AnchorUrlRewriteGenerator.php&#10;magento/framework/DB/Statement/Pdo/Mysql.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/DB/Statement/Pdo/Mysql.php&#10;\Magento\Catalog\Model\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product&#9;null&#9;null&#10;\Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;Magento\Catalog\Model\ResourceModel\Product\Collection&#9;null&#9;null&#10;\Magento\Backend\Block\Widget\Grid\Container&#9;null&#9;null&#10;/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;html/vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd\CustomCatalog\Model\Config\Source\Options&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;app/code/Magento/CatalogInventoryConfigurableProduct/Plugin/GetInStockAttributeOptionsPlugin.php#L54-L54&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;Magento\Catalog\Model\Product\Interceptor&#9;null&#9;null&#10;/var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory&#9;null&#9;null&#10;Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection&#9;null&#9;null&#10;\Magento\Framework\Model\ResourceModel\Db\AbstractDb&#9;null&#9;null&#10;Webspeaks\ProductsGrid\Model\ResourceModel\Contact\Grid\Collection&#9;FILE&#9;file:///var/www/magento2/magestudy/html/app/code/Webspeaks/ProductsGrid/Model/ResourceModel/Contact/Grid/Collection.php&#10;\Magento\Framework\Data\Collection\EntityFactory.&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Data/Collection/EntityFactory.php&#10;vendor\magento\module-backend\Model\View\Layout&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-backend/Model/View/Layout&#10;Data\Collection\EntityFactoryInterface&#9;null&#9;null&#10;magento/framework/View/Result/Page.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/View/Result/Page.php&#10;study/html/vendor/magento/framework/View/Result/Page.php&#9;null&#9;null&#10;module-developer/Model/View/Page/Config/RendererFactory.php&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-developer/Model/View/Page/Config/RendererFactory.php&#10;vendor/magento/module-config/App/Config/Type/System&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/module-config/App/Config/Type/System.php&#10;Magento\Framework\Code\Reader\ClassReader&#9;null&#9;null&#10;vendor/magento/framework/Code/Reader/ClassReader&#9;FILE&#9;file:///var/www/magento2/magestudy/html/vendor/magento/framework/Code/Reader/ClassReader.php&#10;Gwd/CustomCatalog/Model/Config/Source/Options&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensionAttributesInterface&#9;null&#9;null&#10;Magento\Checkout\Api\Data\ShippingInformationInterface&#9;null&#9;null&#10;\Magento\Framework\App\ObjectManager&#9;null&#9;null&#10;\Magento\Framework\Api\ExtensibleDataInterface&#9;null&#9;null&#10;Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;\Magento\Framework\Api\CustomAttributesDataInterface&#9;null&#9;null&#10;Magento\Catalog\Api\Data\ProductInterface&#9;null&#9;null&#10;\Magento\Eav\Api\Data\AttributeSetInterface&#9;null&#9;null" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -991,7 +1057,7 @@
       <workItem from="1542037291912" duration="3000" />
       <workItem from="1542098353122" duration="599000" />
       <workItem from="1542103143439" duration="24000" />
-      <workItem from="1542111768280" duration="6789000" />
+      <workItem from="1542111768280" duration="12213000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1541406345572</created>
@@ -1004,7 +1070,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415841000" />
+    <option name="totallyTimeSpent" value="421265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1016,7 +1082,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="305" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.49585405" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36451614" sideWeight="0.5389718" order="8" side_tool="true" content_ui="tabs" />
@@ -1024,7 +1091,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47311828" sideWeight="0.34715313" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22473118" sideWeight="0.4223328" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2443339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26091763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48172042" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1135,7 +1202,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="267" />
+      <option name="time" value="268" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -1195,48 +1262,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Attribute/Backend/Customlayoutupdate/Interceptor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3209">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Attribute/Config/Data/Proxy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-973">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Attribute.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="171" column="9" lean-forward="true" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ProductFrontendAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ProductRenderInfoSearchResults.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite/etc/di.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1291,13 +1316,6 @@
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/module.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/acl.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/adminhtml/system.xml" />
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="81" column="5" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/view/adminhtml/layout/customcatalog_custom_edit.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/view/adminhtml/layout/customcatalog_custom_index.xml" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/registration.php" />
@@ -1308,48 +1326,7 @@
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Helper/Data.php" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Context.php" />
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/BaseBlock.php" />
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassStatus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/NewAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1365,47 +1342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tabs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/etc/adminhtml/routes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/Block/Widget/Grid/Extended.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="591" column="20" lean-forward="false" selection-start-line="591" selection-start-column="20" selection-end-line="591" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1429,26 +1366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/Model/ResourceModel/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="353" column="23" lean-forward="false" selection-start-line="353" selection-start-column="13" selection-end-line="353" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="166" column="45" lean-forward="false" selection-start-line="166" selection-start-column="32" selection-end-line="166" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1461,18 +1382,180 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tab/General.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit/Tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/RequestInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/ObjectManagerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/Context.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="74" column="49" lean-forward="false" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Block/Cms/Page/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-url-rewrite/Controller/Adminhtml/Url/Rewrite/Delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/NewAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#65#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/Save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Model/CustomCatalogApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="117" lean-forward="false" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/AbstractBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="475" column="20" lean-forward="false" selection-start-line="475" selection-start-column="20" selection-end-line="475" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-backend/Block/Widget/Grid/Extended.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="591" column="26" lean-forward="true" selection-start-line="591" selection-start-column="26" selection-end-line="591" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassStatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Controller/Adminhtml/Custom/MassDelete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="690">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="201" column="27" lean-forward="true" selection-start-line="201" selection-start-column="27" selection-end-line="201" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Gwd/CustomCatalog/Block/Adminhtml/Custom/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding />
         </state>
       </provider>
