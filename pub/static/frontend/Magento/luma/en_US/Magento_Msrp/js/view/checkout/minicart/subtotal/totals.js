@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-msrp/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-msrp/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js

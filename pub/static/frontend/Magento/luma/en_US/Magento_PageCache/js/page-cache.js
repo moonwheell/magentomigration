@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-page-cache/view/frontend/web/js/page-cache.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-page-cache/view/frontend/web/js/page-cache.js

@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-catalog/view/frontend/web/js/view/compare-products.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-catalog/view/frontend/web/js/view/compare-products.js

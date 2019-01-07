@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/lib/web/requirejs/domReady.js
+/var/www/magento2/migrationm2/html/lib/web/requirejs/domReady.js

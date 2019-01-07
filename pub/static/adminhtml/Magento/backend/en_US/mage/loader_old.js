@@ -1,1 +1,0 @@
-/var/www/magento2/magestudy/html/lib/web/mage/loader_old.js

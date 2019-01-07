@@ -11,7 +11,7 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'mysql',
-                'dbname' => 'magestudy2',
+                'dbname' => 'migrationm2',
                 'username' => 'admin',
                 'password' => 'admin',
                 'active' => '1'

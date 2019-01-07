@@ -1,1 +1,0 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-variable/view/adminhtml/web/variables.js

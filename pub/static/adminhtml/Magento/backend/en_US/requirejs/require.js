@@ -1,1 +1,0 @@
-/var/www/magento2/magestudy/html/lib/web/requirejs/require.js

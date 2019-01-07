@@ -1,1 +1,0 @@
-/var/www/magento2/magestudy/html/lib/web/es6-collections.js

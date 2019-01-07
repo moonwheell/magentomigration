@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-ui/view/base/web/js/lib/view/utils/dom-observer.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-ui/view/base/web/js/lib/view/utils/dom-observer.js

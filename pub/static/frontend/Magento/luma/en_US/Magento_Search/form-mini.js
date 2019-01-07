@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-search/view/frontend/web/form-mini.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-search/view/frontend/web/form-mini.js

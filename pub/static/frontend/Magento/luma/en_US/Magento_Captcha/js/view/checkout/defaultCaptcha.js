@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-captcha/view/frontend/web/js/view/checkout/defaultCaptcha.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-captcha/view/frontend/web/js/view/checkout/defaultCaptcha.js

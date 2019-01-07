@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-customer/view/frontend/web/js/action/login.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-customer/view/frontend/web/js/action/login.js

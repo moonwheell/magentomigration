@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/lib/web/jquery/jquery-ui-timepicker-addon.js
+/var/www/magento2/migrationm2/html/lib/web/jquery/jquery-ui-timepicker-addon.js

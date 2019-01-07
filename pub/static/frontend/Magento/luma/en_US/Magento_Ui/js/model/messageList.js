@@ -1,1 +1,1 @@
-/var/www/magento2/magestudy/html/vendor/magento/module-ui/view/frontend/web/js/model/messageList.js
+/var/www/magento2/migrationm2/html/vendor/magento/module-ui/view/frontend/web/js/model/messageList.js
