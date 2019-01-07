@@ -12,8 +12,19 @@
       <sourceFolder url="file://$MODULE_DIR$/lib/internal/Magento/Framework" isTestSource="false" packagePrefix="Magento\Framework\" />
       <sourceFolder url="file://$MODULE_DIR$/setup/src/Magento/Setup" isTestSource="false" packagePrefix="Magento\Setup\" />
       <sourceFolder url="file://$MODULE_DIR$/app/code" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/magento/data-migration-tool" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/magento/data-migration-tool" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/magento/data-migration-tool" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
