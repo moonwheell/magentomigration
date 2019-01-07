@@ -1,0 +1,1 @@
+/var/www/magento2/migrationm2/html/vendor/magento/theme-adminhtml-backend/web/js/theme.js

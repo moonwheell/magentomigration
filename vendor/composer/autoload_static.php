@@ -168,6 +168,8 @@ class ComposerStaticInit4dbd6d03a2e4327b3d257d87f16e3425
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '153a7817726e1caca4e6c3b7bc76f329' => __DIR__ . '/..' . '/temando/module-shipping-m2/registration.php',
         '1a1fad76fd106d3fa4f1bece70880e7e' => __DIR__ . '/..' . '/vertex/module-tax/registration.php',
+        '0675d4e4a5ec2bff513f44d595f3b063' => __DIR__ . '/..' . '/magento/data-migration-tool/src/Migration/cli_commands.php',
+        'a1a5ee93938163d4806d2cc4f289e75c' => __DIR__ . '/..' . '/magento/data-migration-tool/registration.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
 
@@ -267,6 +269,7 @@ class ComposerStaticInit4dbd6d03a2e4327b3d257d87f16e3425
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Migration\\' => 10,
             'Magento\\Wishlist\\' => 17,
             'Magento\\WishlistAnalytics\\' => 26,
             'Magento\\Widget\\' => 15,
@@ -707,6 +710,11 @@ class ComposerStaticInit4dbd6d03a2e4327b3d257d87f16e3425
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Migration\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/data-migration-tool/src/Migration',
+            1 => __DIR__ . '/..' . '/magento/data-migration-tool/tests/unit/testsuite/Migration',
         ),
         'Magento\\Wishlist\\' => 
         array (

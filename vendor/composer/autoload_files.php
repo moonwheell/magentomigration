@@ -167,5 +167,7 @@ return array(
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     '153a7817726e1caca4e6c3b7bc76f329' => $vendorDir . '/temando/module-shipping-m2/registration.php',
     '1a1fad76fd106d3fa4f1bece70880e7e' => $vendorDir . '/vertex/module-tax/registration.php',
+    '0675d4e4a5ec2bff513f44d595f3b063' => $vendorDir . '/magento/data-migration-tool/src/Migration/cli_commands.php',
+    'a1a5ee93938163d4806d2cc4f289e75c' => $vendorDir . '/magento/data-migration-tool/registration.php',
     'b4cf39431a4b949eea8aa69ebb3d39da' => $baseDir . '/app/etc/NonComposerComponentRegistration.php',
 );

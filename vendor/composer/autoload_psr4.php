@@ -72,6 +72,7 @@ return array(
     'Pelago\\' => array($vendorDir . '/pelago/emogrifier/Classes'),
     'PDepend\\' => array($vendorDir . '/pdepend/pdepend/src/main/php/PDepend'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Migration\\' => array($vendorDir . '/magento/data-migration-tool/src/Migration', $vendorDir . '/magento/data-migration-tool/tests/unit/testsuite/Migration'),
     'Magento\\Wishlist\\' => array($vendorDir . '/magento/module-wishlist'),
     'Magento\\WishlistAnalytics\\' => array($vendorDir . '/magento/module-wishlist-analytics'),
     'Magento\\Widget\\' => array($vendorDir . '/magento/module-widget'),

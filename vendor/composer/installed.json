@@ -1686,6 +1686,37 @@
         "description": "Magento composer library helps to instantiate Composer application and run composer commands."
     },
     {
+        "name": "magento/data-migration-tool",
+        "version": "2.2.6",
+        "version_normalized": "2.2.6.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.magento.com/archives/magento/data-migration-tool/magento-data-migration-tool-2.2.6.0.zip",
+            "reference": null,
+            "shasum": "f53b7242888483c64c69ad47bc89dfa2ec375725"
+        },
+        "require": {
+            "magento/framework": "~101.0.0",
+            "monolog/monolog": "^1.17",
+            "symfony/console": "~2.3, !=2.7.0"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Migration\\": [
+                    "src/Migration",
+                    "tests/unit/testsuite/Migration"
+                ]
+            },
+            "files": [
+                "src/Migration/cli_commands.php",
+                "registration.php"
+            ]
+        },
+        "description": "Migration Tool"
+    },
+    {
         "name": "magento/framework",
         "version": "101.0.6",
         "version_normalized": "101.0.6.0",

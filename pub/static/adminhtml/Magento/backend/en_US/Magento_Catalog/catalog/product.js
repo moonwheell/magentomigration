@@ -1,0 +1,1 @@
+/var/www/magento2/migrationm2/html/vendor/magento/module-catalog/view/adminhtml/web/catalog/product.js
