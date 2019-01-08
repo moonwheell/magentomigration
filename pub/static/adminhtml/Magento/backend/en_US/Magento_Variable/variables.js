@@ -1,1 +1,0 @@
-/var/www/magento2/migrationm2/html/vendor/magento/module-variable/view/adminhtml/web/variables.js

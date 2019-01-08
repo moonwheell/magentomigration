@@ -1,1 +1,0 @@
-/var/www/magento2/migrationm2/html/lib/web/extjs/ext-tree-checkbox.js

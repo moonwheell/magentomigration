@@ -1,1 +1,0 @@
-/var/www/magento2/migrationm2/html/vendor/magento/module-catalog/view/adminhtml/web/js/edit-tree.js

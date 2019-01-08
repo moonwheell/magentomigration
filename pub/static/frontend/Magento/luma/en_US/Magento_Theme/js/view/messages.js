@@ -1,1 +1,0 @@
-/var/www/magento2/migrationm2/html/vendor/magento/module-theme/view/frontend/web/js/view/messages.js

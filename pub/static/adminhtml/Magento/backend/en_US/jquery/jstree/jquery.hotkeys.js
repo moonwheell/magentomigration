@@ -1,1 +1,0 @@
-/var/www/magento2/migrationm2/html/lib/web/jquery/jstree/jquery.hotkeys.js
