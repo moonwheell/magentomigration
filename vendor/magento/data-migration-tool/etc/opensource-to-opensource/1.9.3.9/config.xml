@@ -98,10 +98,10 @@
         </step>
     </steps>
     <source>
-        <database host="172.18.0.7" name="migrationm1" user="admin" password="admin" />
+        <database host="mysql" name="migrationm1" user="admin" password="admin" />
     </source>
     <destination>
-        <database host="172.18.0.7" name="migrationm2" user="admin" password="admin" />
+        <database host="mysql" name="migrationm2" user="admin" password="admin" />
     </destination>
     <options>
         <map_file>etc/opensource-to-opensource/1.9.3.9/map.xml</map_file>
